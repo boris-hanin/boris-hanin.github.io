@@ -5,6 +5,6 @@ I’ve been an Assistant Professor at [Princeton ORFE](https://orfe.princeton.ed
 
 ## News
 <ul>
-  <li> I am currently looking for grad students and postdocs. If you a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](boris-hanin.github.io/Working_With_Me.pdf))</li>
-  <li> I am organizing the 2023 Princeton Deep Learning Theory Summer School. Website coming soon. Similar to [last year's school](https://mlschool.princeton.edu/) .</li>
+  <li> I am currently looking for grad students and postdocs. If you a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](boris-hanin.github.io/Working_With_Me.pdf) </li>
+  <li> I am organizing the 2023 Princeton Deep Learning Theory Summer School. Website coming soon. Similar to [last year's school](https://mlschool.princeton.edu/). </li>
 </ul>
