@@ -18,7 +18,7 @@ I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
 ### **Deep Learning and Random Matrix Theory**
-2. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
+1. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
 3. Correlation Functions in Random Fully Connected Neural Networks at Finite Width (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 4. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
 5. Random Neural Networks in the Infinite Width Limit as Gaussian Processes (2021) [ArXiv](https://arxiv.org/abs/2107.01562)
@@ -54,7 +54,7 @@ I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.
 
 ### **Zeros and Critical Points of Random Polynomials**
 
-21. The Lemniscate Tree of a Random Polynomial, with M. Epstein and E. Lundberg. Annales Institute Henri Poincare (B), 2018. [ArXiv](https://arxiv.org/abs/1806.00521)
+1. The Lemniscate Tree of a Random Polynomial, with M. Epstein and E. Lundberg. Annales Institute Henri Poincare (B), 2018. [ArXiv](https://arxiv.org/abs/1806.00521)
 27.	Pairing of Zeros and Critical Points for Random Polynomials. Annales de l'Institut Henri Poincare (B) Probabilites et Statistiques. Volume 53, Number 3 (2017), 1498-1511. [ArXiv](https://arxiv.org/abs/1601.06417)
 30. Pairing of Zeros and Critical Points for Random Meromorphic Functions on Riemann Surfaces</b>. Mathematics Research Letters, Vol. 22 (2015), No. 1, pp. 111-140. [ArXiv](http://arxiv.org/abs/1305.6105)
 32. Correlations and Pairing Between Zeros and Critical Points of Gaussian Random Polynomials. International Math Research Notices (2015), Vol. (2), pp. 381-421. [ArXiv](http://arxiv.org/abs/1207.4734)
