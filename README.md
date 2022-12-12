@@ -1,4 +1,4 @@
-[](boris-hanin.github.io/pata.jpeg) 
+![](boris-hanin.github.io/pata.jpeg) 
 # **Boris Hanin**
 
 ## **About Me**
