@@ -11,7 +11,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) sin
 
 
 ## **News**
-- I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf).
+- I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)).
 -  I am organizing the 2023 Princeton Deep Learning Theory Summer School. Website coming soon. Similar to [last year's school](https://mlschool.princeton.edu/). 
 
 ## **Students**
