@@ -1,4 +1,6 @@
 # **Boris Hanin**
+
+![image](https://user-images.githubusercontent.com/17192187/208241293-8cc211ec-8af6-446d-b4aa-e10e4b7581af.jpeg)
  
 ## **About Me**
 <img align="right" src="[https://postimg.cc/Vd8mMVRq]">
