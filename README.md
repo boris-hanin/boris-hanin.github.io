@@ -1,7 +1,7 @@
 # **Boris Hanin**
  
 ## **About Me**
-<img align="right" width="200" height="200" src="[https://postimg.cc/Vd8mMVRq]">
+<img align="right" src="[https://postimg.cc/Vd8mMVRq]">
 
 I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) since 2019. I work on **deep learning, probability, and spectral asymptotics.** Prior to Princeton, I was an Assistant Professor in Mathematics at Texas A&M, an NSF Postdoc at MIT Math, and a PhD student in Math at Northwestern, where I was supervised by Steve Zelditch. 
 
