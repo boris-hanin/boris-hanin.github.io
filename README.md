@@ -34,7 +34,6 @@ I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.
 11.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
 12.	Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
 13.	Nonlinear Approximation and (Deep) ReLU Networks, with I. Daubechies, R. DeVore, S. Foucart, and G. Petrova. Constructive Approximation (Special Issue on Deep Networks in Approximation Theory) (2019) [ArXiv](https://arxiv.org/abs/1905.02199)
-15.	Interface Asymptotics of Eigenspace Wigner distributions for the Harmonic Oscillator, with S. Zelditch. Communications in PDE (2020) [ArXiv](https://arxiv.org/abs/1901.06438)
 15.	Complexity of Linear Regions in Deep Networks, with D. Rolnick, ICML 2019 [ArXiv](https://arxiv.org/abs/1901.09021)
 17.	How to Start Training: The Effect of Initialization and Architecture, with D. Rolnick. NIPS 2018 [ArXiv](https://arxiv.org/abs/1803.01719)
 18.	Which Neural Net Architectures Give Rise to Vanishing and Exploding Gradients? NIPS 2018 [ArXiv](https://arxiv.org/abs/1801.03744)
@@ -46,6 +45,7 @@ I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.
 
 1. Scaling Asymptotics of Spectral Wigner Functions, with S. Zelditch. Journal of Physics A (Special Edition on Claritons and the Asymptotics of Ideas: the Physics of Michael Berry) (2022) [ArXiv](https://arxiv.org/abs/2207.13571)
 13. Interface Asymptotics of Wigner-Weyl Distributions for the Harmonic Oscillator, with S. Zelditch. Journal d'Analyse (2022) [ArXiv](https://arxiv.org/abs/1903.12524)
+15.	Interface Asymptotics of Eigenspace Wigner distributions for the Harmonic Oscillator, with S. Zelditch. Communications in PDE (2020) [ArXiv](https://arxiv.org/abs/1901.06438)
 22.	Level Spacings and Nodal Sets at Infinity for Radial Perturbations of the Harmonic Oscillator, with T. Beck. International Math Research Notices, 2021. [ArXiv](https://arxiv.org/abs/1708.06434)
 23.	Local Universality for Zeros and Critical Points of Monochromatic Random Waves, with Y. Canzani. Communication in Mathematical Physics, 2020. [ArXiv](https://arxiv.org/abs/1610.09438)
 24.	Nodal Sets of Functions with Finite Vanishing Order, with T. Beck and S. Becker-Khan. Calculus of Variations and PDE (2018) [ArXiv](https://arxiv.org/abs/1708.06434)
