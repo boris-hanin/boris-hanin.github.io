@@ -26,7 +26,7 @@ I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.
 1. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
 3. Correlation Functions in Random Fully Connected Neural Networks at Finite Width (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 4. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
-5. Random Neural Networks in the Infinite Width Limit as Gaussian Processes (2021) [ArXiv](https://arxiv.org/abs/2107.01562)
+5. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability [ArXiv](https://arxiv.org/abs/2107.01562)
 6. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
 7. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
 8. Neural Network Approximation, with R. DeVore and G. Petrova, Acta Numerica (2020) [ArXiv](https://arxiv.org/abs/2012.14501)
