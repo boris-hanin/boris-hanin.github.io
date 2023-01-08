@@ -14,6 +14,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 ## **News**
 - I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)).
 -  I am organizing the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). 
+-  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_notes.pdf).
 
 ## **Students**
 I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Samy Jelassi](https://sjelassi.github.io/), and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
