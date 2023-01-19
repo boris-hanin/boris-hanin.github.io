@@ -25,7 +25,7 @@ I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa [ArXiv](https://arxiv.org/abs/2212.14457)
 1. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick [ArXiv](https://arxiv.org/abs/2212.07295)
 1. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
-3. Correlation Functions in Random Fully Connected Neural Networks at Finite Width (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
+3. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 4. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
 5. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability (2023) [ArXiv](https://arxiv.org/abs/2107.01562)
 6. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
