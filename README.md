@@ -21,7 +21,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 ## **Research Group**
 I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Samy Jelassi](https://sjelassi.github.io/), and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
 
-Starting in Fall 2023, I am excited to be a postdoctoral mentor to [Gage DeZoort](https://scholar.google.com/citations?user=CFIJTBAAAAAJ&hl=en) and [Mufan Li](https://mufan-li.github.io)
+Starting in Fall 2023, I am excited to work with two phenomenal postdocs: [Gage DeZoort](https://scholar.google.com/citations?user=CFIJTBAAAAAJ&hl=en) and [Mufan Li](https://mufan-li.github.io).
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
