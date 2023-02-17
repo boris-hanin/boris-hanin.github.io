@@ -13,13 +13,15 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 
 ## **News**
 - I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)).
--  I am organizing the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). 
--  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf).
 -  I am speaking at program on statistical physics and machine learning in beautiful Cargese, Corsica July 31 - August 12. Apply [here](https://cargese2023.github.io).
 -  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School (applications should be open soon [here](https://iaifi.org/phd-summer-school.html)). 
+-  I am organizing the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). 
+-  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf).
 
-## **Students**
-I am fortunate to supervise [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Samy Jelassi](https://sjelassi.github.io/), and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
+## **Research Group**
+I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Samy Jelassi](https://sjelassi.github.io/), and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
+
+Starting in Fall 2023, I am excited to be a postdoctoral mentor to [Gage DeZoort](https://scholar.google.com/citations?user=CFIJTBAAAAAJ&hl=en) and [Mufan Li](https://mufan-li.github.io)
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
