@@ -17,7 +17,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 -  I am speaking at program on statistical physics and machine learning in beautiful Cargese, Corsica July 31 - August 12. Apply [here](https://cargese2023.github.io).
 -  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School (applications should be open soon [here](https://iaifi.org/phd-summer-school.html)). 
 -  I am organizing the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). 
--  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf).
+<!-- -  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf). -->
 
 ## **Research Group**
 - I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Samy Jelassi](https://sjelassi.github.io/), and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
