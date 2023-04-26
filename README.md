@@ -27,7 +27,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
 ### **Deep Learning and Random Matrix Theory**
-1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa [ArXiv](https://arxiv.org/abs/2212.14457)
+1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (in press) [ArXiv](https://arxiv.org/abs/2212.14457)
 1. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
 1. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
 3. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
