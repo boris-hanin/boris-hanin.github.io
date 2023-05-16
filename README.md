@@ -41,7 +41,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 
 
 #### **Deep Learning Theory for Practice**
-3. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar [ArXiv](https://arxiv.org/abs/2305.07810)
+1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar [ArXiv](https://arxiv.org/abs/2305.07810)
 4. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
 5. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
 12. How Data Augmentation affects Optimization for Linear Regression, with Y. Sun NeurIPS 2021 [ArXiv](https://arxiv.org/abs/2010.11171)
@@ -49,7 +49,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 
 
 #### **Approximation with Neural Networks**
-11. Neural Network Approximation, with R. DeVore and G. Petrova, Acta Numerica (2020) [ArXiv](https://arxiv.org/abs/2012.14501)
+1. Neural Network Approximation, with R. DeVore and G. Petrova, Acta Numerica (2020) [ArXiv](https://arxiv.org/abs/2012.14501)
 13. Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
 17.	Nonlinear Approximation and (Deep) ReLU Networks, with I. Daubechies, R. DeVore, S. Foucart, and G. Petrova. Constructive Approximation (Special Issue on Deep Networks in Approximation Theory) (2019) [ArXiv](https://arxiv.org/abs/1905.02199)
 18.	Complexity of Linear Regions in Deep Networks, with D. Rolnick, ICML 2019 [ArXiv](https://arxiv.org/abs/1901.09021)
