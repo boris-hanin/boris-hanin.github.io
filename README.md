@@ -26,7 +26,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
-### **Deep Learning and Random Matrix Theory**
+### **Deep Learning**
 
 #### **Probabilistic Analysis of Deep and Wide Neural Networks + Random Matrix Products**
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (in press) [ArXiv](https://arxiv.org/abs/2212.14457)
