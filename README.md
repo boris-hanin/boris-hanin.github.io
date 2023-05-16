@@ -27,26 +27,34 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
 ### **Deep Learning and Random Matrix Theory**
+
+#### **Deep and Wide Networks + Random Matrix Products**
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (in press) [ArXiv](https://arxiv.org/abs/2212.14457)
-2. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar [ArXiv](https://arxiv.org/abs/2305.07810)
-3. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
-4. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
-5. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
-6. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
-7. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability (2023) [ArXiv](https://arxiv.org/abs/2107.01562)
-8. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
-9. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
-10. Neural Network Approximation, with R. DeVore and G. Petrova, Acta Numerica (2020) [ArXiv](https://arxiv.org/abs/2012.14501)
-11. How Data Augmentation affects Optimization for Linear Regression, with Y. Sun NeurIPS 2021 [ArXiv](https://arxiv.org/abs/2010.11171)
-12. Products of Many Large Random Matrices and Gradients in Deep Neural Networks, with M. Nica. Communications in Mathematical Physics (2020) [ArXiv](https://arxiv.org/abs/1812.05994)
-13.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
-14.	Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
-15.	Nonlinear Approximation and (Deep) ReLU Networks, with I. Daubechies, R. DeVore, S. Foucart, and G. Petrova. Constructive Approximation (Special Issue on Deep Networks in Approximation Theory) (2019) [ArXiv](https://arxiv.org/abs/1905.02199)
-16.	Complexity of Linear Regions in Deep Networks, with D. Rolnick, ICML 2019 [ArXiv](https://arxiv.org/abs/1901.09021)
-17.	How to Start Training: The Effect of Initialization and Architecture, with D. Rolnick. NIPS 2018 [ArXiv](https://arxiv.org/abs/1803.01719)
-18.	Which Neural Net Architectures Give Rise to Vanishing and Exploding Gradients? NIPS 2018 [ArXiv](https://arxiv.org/abs/1801.03744)
-19.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
-20.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
+2. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
+7. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
+8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability (2023) [ArXiv](https://arxiv.org/abs/2107.01562)
+9.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
+20.	Which Neural Net Architectures Give Rise to Vanishing and Exploding Gradients? NIPS 2018 [ArXiv](https://arxiv.org/abs/1801.03744)
+10. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
+14. Products of Many Large Random Matrices and Gradients in Deep Neural Networks, with M. Nica. Communications in Mathematical Physics (2020) [ArXiv](https://arxiv.org/abs/1812.05994)
+9. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
+
+
+#### **Deep Learning Theory for Practice**
+3. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar [ArXiv](https://arxiv.org/abs/2305.07810)
+4. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
+5. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
+12. How Data Augmentation affects Optimization for Linear Regression, with Y. Sun NeurIPS 2021 [ArXiv](https://arxiv.org/abs/2010.11171)
+13. How to Start Training: The Effect of Initialization and Architecture, with D. Rolnick. NIPS 2018 [ArXiv](https://arxiv.org/abs/1803.01719)
+
+
+#### **Approximation with Neural Networks**
+11. Neural Network Approximation, with R. DeVore and G. Petrova, Acta Numerica (2020) [ArXiv](https://arxiv.org/abs/2012.14501)
+13. Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
+17.	Nonlinear Approximation and (Deep) ReLU Networks, with I. Daubechies, R. DeVore, S. Foucart, and G. Petrova. Constructive Approximation (Special Issue on Deep Networks in Approximation Theory) (2019) [ArXiv](https://arxiv.org/abs/1905.02199)
+18.	Complexity of Linear Regions in Deep Networks, with D. Rolnick, ICML 2019 [ArXiv](https://arxiv.org/abs/1901.09021)
+21.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
+22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 
 ### **Spectral Theory**
