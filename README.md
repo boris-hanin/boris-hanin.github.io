@@ -28,7 +28,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 
 ### **Deep Learning and Random Matrix Theory**
 
-#### **Deep and Wide Networks + Random Matrix Products**
+#### **Probabilistic Analysis of Deep and Wide Neural Networks + Random Matrix Products**
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (in press) [ArXiv](https://arxiv.org/abs/2212.14457)
 2. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 7. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
