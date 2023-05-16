@@ -32,11 +32,12 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (in press) [ArXiv](https://arxiv.org/abs/2212.14457)
 2. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability (2023) [ArXiv](https://arxiv.org/abs/2107.01562)
+9. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
 9.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
 20.	Which Neural Net Architectures Give Rise to Vanishing and Exploding Gradients? NIPS 2018 [ArXiv](https://arxiv.org/abs/1801.03744)
 10. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
 14. Products of Many Large Random Matrices and Gradients in Deep Neural Networks, with M. Nica. Communications in Mathematical Physics (2020) [ArXiv](https://arxiv.org/abs/1812.05994)
-9. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
+
 
 
 #### **Deep Learning Theory for Practice**
