@@ -27,7 +27,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 
 ### **First Placement of Former Members**
 
-- Samy Jelassi (Postdoc at Harvard CMSA)
+- [Samy Jelassi](https://sjelassi.github.io) (Postdoc at Harvard CMSA)
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
