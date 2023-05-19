@@ -21,9 +21,13 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 <!-- -  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf). -->
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Samy Jelassi](https://sjelassi.github.io/), and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
+- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/)  and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
 
 - Starting in Fall 2023, I am excited to work with two phenomenal postdocs: [Gage DeZoort](https://scholar.google.com/citations?user=CFIJTBAAAAAJ&hl=en) and [Mufan Li](https://mufan-li.github.io).
+
+### **First Placement of Former Members**
+
+- Samy Jelassi (Postdoc at Harvard CMSA)
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
