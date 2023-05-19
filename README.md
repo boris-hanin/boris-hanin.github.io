@@ -17,7 +17,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) wor
 -  I am speaking at a two-day program in mid-August on the theoretical aspects of Machine Learning at the Center for Brains, Minds, and Machines [Summer School](https://cbmm.mit.edu/summer-school) in Woods Hole, MA. 
 -  I am speaking at a [workshop](https://cargese2023.github.io) on statistical physics and machine learning in beautiful Cargese, Corsica, which runs July 31 - August 12. 
 -  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School. 
--  I am organizing the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). 
+-  I am organizing in late June the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). Approximately 80 students from around the world will attend to hear courses by Cengiz Pehlevan (Harvard), Arthur Jacot (NYU), Francesca Mignacco (Princeton), Philippe Rigollet (MIT), Jeffrey Pennington (Google), and Ben Adlam (Google). 
 <!-- -  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf). -->
 
 ## **Research Group**
