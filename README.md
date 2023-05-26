@@ -97,7 +97,7 @@ Please see my [CV](/CV.pdf) for more information.
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 ##### **Conference Articles**
-13. Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
+1. Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
 18.	Complexity of Linear Regions in Deep Networks, with D. Rolnick, ICML 2019 [ArXiv](https://arxiv.org/abs/1901.09021)
 
 ### **Spectral Theory**
