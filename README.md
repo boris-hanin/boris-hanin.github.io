@@ -65,7 +65,7 @@ Please see my [CV](/CV.pdf) for more information.
 #### **Probabilistic Analysis of Deep and Wide Neural Networks + Random Matrix Products**
 ##### **Preprints**
 1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
-2. 
+
 ##### **Journal Articles**
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (in press) [ArXiv](https://arxiv.org/abs/2212.14457)
 8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability (2023) [ArXiv](https://arxiv.org/abs/2107.01562)
