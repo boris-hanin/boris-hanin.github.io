@@ -38,7 +38,7 @@ I am an Associate Editor of
 - [Pure and Applied Analysis](https://msp.org/paa/about/journal/about.html)
 - [Mathematics of Operations Research](https://pubsonline.informs.org/journal/moor)
 
-For both PAA and MoOR I am always looking for high quality submissions at the intersection of machine learning and probability. Feel free to reach out to me or just directly submit if you have an appropriate article. I promise that I will have a careful look and, if it is within scope, will send it to high quality referees. 
+Both PAA and MoOR are always looking for high quality submissions at the intersection of machine learning and probability. 
 
 ## **Talks AY 2022/23**
 
