@@ -128,7 +128,7 @@ Both PAA and MoOR are always looking for high quality submissions at the interse
 
 
 ### **Zeros and Critical Points of Random Polynomials**
-
+##### **Journal Articles**
 1. The Lemniscate Tree of a Random Polynomial, with M. Epstein and E. Lundberg. Annales Institute Henri Poincare (B), 2018. [ArXiv](https://arxiv.org/abs/1806.00521)
 27.	Pairing of Zeros and Critical Points for Random Polynomials. Annales de l'Institut Henri Poincare (B) Probabilites et Statistiques. Volume 53, Number 3 (2017), 1498-1511. [ArXiv](https://arxiv.org/abs/1601.06417)
 30. Pairing of Zeros and Critical Points for Random Meromorphic Functions on Riemann Surfaces</b>. Mathematics Research Letters, Vol. 22 (2015), No. 1, pp. 111-140. [ArXiv](http://arxiv.org/abs/1305.6105)
