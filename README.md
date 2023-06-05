@@ -22,6 +22,7 @@ Please see my [CV](/CV.pdf) for more information.
 -  I am organizing in late June the [2023 Princeton Deep Learning Theory Summer School](https://mlschool.princeton.edu/). Approximately 80 students from around the world will attend to hear courses by Cengiz Pehlevan (Harvard), Arthur Jacot (NYU), Francesca Mignacco (Princeton), Philippe Rigollet (MIT), Jeffrey Pennington (Google), and Ben Adlam (Google). 
 <!-- -  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf). -->
 
+
 ## **Research Group**
 - I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/)  and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
 
@@ -30,6 +31,12 @@ Please see my [CV](/CV.pdf) for more information.
 ### **First Placement of Former Members**
 
 - [Samy Jelassi](https://sjelassi.github.io) (Postdoc at Harvard CMSA)
+
+## Professional Service
+- I am an Associate Editor for [Pure and Applied Analysis](https://msp.org/paa/about/journal/about.html). I am always looking for high quality submissions at the intersectin of analysis and machine learning. If you have an apprioraite article, feel free to reach out to me or just directly submit to PAA. I promise that I will have a careful look and, if it is within scope, will send it to high quality referees. 
+- I am an Associate Editor for [Mathematics of Operations Research](https://pubsonline.informs.org/journal/moor). 
+
+For both PAA and MoOR I am always looking for high quality submissions at the intersection of machine learning and probability. Feel free to reach out to me or just directly submit if you have an appropriate article. I promise that I will have a careful look and, if it is within scope, will send it to high quality referees. 
 
 ## **Talks AY 2022/23**
 
