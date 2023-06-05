@@ -33,8 +33,10 @@ Please see my [CV](/CV.pdf) for more information.
 - [Samy Jelassi](https://sjelassi.github.io) (Postdoc at Harvard CMSA)
 
 ## Professional Service
-- I am an Associate Editor for [Pure and Applied Analysis](https://msp.org/paa/about/journal/about.html). I am always looking for high quality submissions at the intersectin of analysis and machine learning. If you have an apprioraite article, feel free to reach out to me or just directly submit to PAA. I promise that I will have a careful look and, if it is within scope, will send it to high quality referees. 
-- I am an Associate Editor for [Mathematics of Operations Research](https://pubsonline.informs.org/journal/moor). 
+I am an Associate Editor of
+
+- [Pure and Applied Analysis](https://msp.org/paa/about/journal/about.html). 
+- [Mathematics of Operations Research](https://pubsonline.informs.org/journal/moor)
 
 For both PAA and MoOR I am always looking for high quality submissions at the intersection of machine learning and probability. Feel free to reach out to me or just directly submit if you have an appropriate article. I promise that I will have a careful look and, if it is within scope, will send it to high quality referees. 
 
@@ -85,9 +87,11 @@ For both PAA and MoOR I am always looking for high quality submissions at the in
 10. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
 
 #### **Deep Learning Theory for Practice**
-##### **Conference Articles**
+##### **Preprints**
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar [ArXiv](https://arxiv.org/abs/2305.07810)
-4. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
+
+##### **Conference Articles**
+1. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
 5. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
 12. How Data Augmentation affects Optimization for Linear Regression, with Y. Sun NeurIPS 2021 [ArXiv](https://arxiv.org/abs/2010.11171)
 13. How to Start Training: The Effect of Initialization and Architecture, with D. Rolnick. NIPS 2018 [ArXiv](https://arxiv.org/abs/1803.01719)
