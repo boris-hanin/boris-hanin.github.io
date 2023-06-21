@@ -72,7 +72,7 @@ Both PAA and MoOR are always looking for high quality submissions at the interse
 ### **Deep Learning + Random Matrices**
 
 #### **Preprints**
-1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort [ArXiv](https://arxiv.org/abs/2306.11668)
+1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort  (2023) [ArXiv](https://arxiv.org/abs/2306.11668)
 1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar [ArXiv](https://arxiv.org/abs/2305.07810)
 1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
