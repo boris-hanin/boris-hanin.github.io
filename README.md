@@ -52,7 +52,7 @@ Both PAA and MoOR are always looking for high quality submissions at the interse
 1. August 2023 (upcoming). IAIFI 2023 Summer Workshop on Physics and Machine Learning (IAIFI, Boston)
 2. August 2023 (upcoming). Two-day program on the theoretical aspects of Machine Learning at the Center for Brain Minds and Machines Summer School in Woods Hole, MA.
 3. August 2023 (upcoming). Workshop on ”Statistical Physics and Machine Learning: Back Together Again” (CNRS Cargese Physics Center, Corsica)
-4. June 2023 (upcoming). 2023 Deep Learning: Theory, Algorithms, and Applications (Fondazione Bruno Kessler)
+4. June 2023. 2023 Deep Learning: Theory, Algorithms, and Applications (Fondazione Bruno Kessler) - [slides](https://github.com/boris-hanin/boris-hanin.github.io/blob/7839071beba7e615e14a2dfe57f3c807279556cc/Hanin_slides.pdf)
 5. May 2023. International Conference on Approximation Theory and Beyond (Vanderbilt)
 6. May 2023. CMSA Probability Seminar (Harvard)
 7. March 2023. 2023 Workshop on Machine Learning Theory and Foundations (Beijing - remote)
