@@ -94,10 +94,10 @@ Both PAA and MoOR are always looking for high quality submissions at the interse
 1.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
 10. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
 12. How Data Augmentation affects Optimization for Linear Regression, with Y. Sun NeurIPS 2021 [ArXiv](https://arxiv.org/abs/2010.11171)
-20.	Which Neural Net Architectures Give Rise to Vanishing and Exploding Gradients? NIPS 2018 [ArXiv](https://arxiv.org/abs/1801.03744)
-13. How to Start Training: The Effect of Initialization and Architecture, with D. Rolnick. NIPS 2018 [ArXiv](https://arxiv.org/abs/1803.01719)
 1. Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
 18.	Complexity of Linear Regions in Deep Networks, with D. Rolnick, ICML 2019 [ArXiv](https://arxiv.org/abs/1901.09021)
+20.	Which Neural Net Architectures Give Rise to Vanishing and Exploding Gradients? NIPS 2018 [ArXiv](https://arxiv.org/abs/1801.03744)
+13. How to Start Training: The Effect of Initialization and Architecture, with D. Rolnick. NIPS 2018 [ArXiv](https://arxiv.org/abs/1803.01719)
 
 
 
