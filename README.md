@@ -17,9 +17,9 @@ Please see my [CV](/CV.pdf) for more information.
 <!-- -  I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)). -->
 - Together with Gage DeZoort, Mariangela Lisanti, Dan Marlow, and Peter Elmer, I am co-organizing at new seminar on Machine Learning in Physics [website](https://ml.physics.princeton.edu) 
 -  Together with Jacob Foster (Sociology, UCLA), Jessica Flack (Collective Computation Group, Santa Fe Institute), Josh Tenenbaum (Brain and Cognitive Science, MIT), Max Kleiman-Weiner (Common Sense Machines), Orit Peleg (Computer Science, Colorado), Patrick Shafto (Rutgers/IAS, Mathematics), Pranab Das (Physics, Elon), Tom Griffiths (AI & Cognitive Science, Princeton) I am organizing a semester-long program at IPAM in Fall 2024 on the Mathematics of Intelligences. This program will bring together researchers working on learning in both biological and artifical settings with the goal of identifying and making progress on mathemcial questions related to learning and intelligence. Here is the [website](http://www.ipam.ucla.edu/programs/long-programs/mathematics-of-intelligences-2/).
--  I am speaking at a two-day program in mid-August on the theoretical aspects of Machine Learning at the Center for Brains, Minds, and Machines [Summer School](https://cbmm.mit.edu/summer-school) in Woods Hole, MA. 
--  I am speaking at a [workshop](https://cargese2023.github.io) on statistical physics and machine learning in beautiful Cargese, Corsica, which runs July 31 - August 12. 
--  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School. 
+<!-- -  I am speaking at a two-day program in mid-August on the theoretical aspects of Machine Learning at the Center for Brains, Minds, and Machines [Summer School](https://cbmm.mit.edu/summer-school) in Woods Hole, MA. -->
+<!-- -  I am speaking at a [workshop](https://cargese2023.github.io) on statistical physics and machine learning in beautiful Cargese, Corsica, which runs July 31 - August 12. -->
+<!-- -  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School. -->
 -  I am organizing in Summer 2024 another installment of the Princeton Machine Learning Theory Summer School. Details forthcoming.
 <!-- -  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf). -->
 
@@ -51,9 +51,9 @@ All these journals are always looking for high quality submissions on theoretica
 
 ### Workshops, Seminars, and Summer Schools
 
-1. August 2023 (upcoming). IAIFI 2023 Summer Workshop on Physics and Machine Learning (IAIFI, Boston)
-2. August 2023 (upcoming). Two-day program on the theoretical aspects of Machine Learning at the Center for Brain Minds and Machines Summer School in Woods Hole, MA.
-3. August 2023 (upcoming). Workshop on ”Statistical Physics and Machine Learning: Back Together Again” (CNRS Cargese Physics Center, Corsica)
+1. August 2023. IAIFI 2023 Summer Workshop on Physics and Machine Learning (IAIFI, Boston)
+2. August 2023. Two-day program on the theoretical aspects of Machine Learning at the Center for Brain Minds and Machines Summer School in Woods Hole, MA.
+3. August 2023. Workshop on ”Statistical Physics and Machine Learning: Back Together Again” (CNRS Cargese Physics Center, Corsica)
 4. June 2023. 2023 Deep Learning: Theory, Algorithms, and Applications (Fondazione Bruno Kessler) - [slides](https://github.com/boris-hanin/boris-hanin.github.io/blob/7839071beba7e615e14a2dfe57f3c807279556cc/Hanin_slides.pdf)
 5. May 2023. International Conference on Approximation Theory and Beyond (Vanderbilt)
 6. May 2023. CMSA Probability Seminar (Harvard)
