@@ -27,7 +27,7 @@ Please see my [CV](/CV.pdf) for more information.
 ## **Research Group**
 - I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/)  and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
 
-- Starting in Fall 2023, I am excited to work with two phenomenal postdocs: [Gage DeZoort](https://scholar.google.com/citations?user=CFIJTBAAAAAJ&hl=en) and [Mufan Li](https://mufan-li.github.io).
+- I am excited to be working with two phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io) and [Mufan Li](https://mufan-li.github.io).
 
 ### **First Placement of Former Members**
 
