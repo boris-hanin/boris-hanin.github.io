@@ -74,6 +74,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning + Random Matrices**
 
 #### **Preprints**
+1. Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit, with B. Bordelon, L. Noci, M. Li, and C. Pehlevan (2023)[ArXiv](https://arxiv.org/abs/2309.16620)
 1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti  (2023) [ArXiv](https://arxiv.org/abs/2307.06092)
 1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort  (2023) [ArXiv](https://arxiv.org/abs/2306.11668)
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
