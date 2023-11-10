@@ -73,7 +73,7 @@ All these journals are always looking for high quality submissions on theoretica
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
-### **Deep Learning **
+### **Deep Learning**
 
 #### **Preprints**
 1. Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit, with B. Bordelon, L. Noci, M. Li, and C. Pehlevan (2023) [ArXiv](https://arxiv.org/abs/2309.16620)
