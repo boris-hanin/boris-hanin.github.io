@@ -87,7 +87,7 @@ All these journals are always looking for high quality submissions on theoretica
 
 #### **Journal Articles**
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
-8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability (2023) [ArXiv](https://arxiv.org/abs/2107.01562)
+8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability, 2023, Vol. 33, No. 6A, 4798–4819 [ArXiv](https://arxiv.org/abs/2107.01562)
 9. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
 14. Products of Many Large Random Matrices and Gradients in Deep Neural Networks, with M. Nica. Communications in Mathematical Physics (2020) [ArXiv](https://arxiv.org/abs/1812.05994)
 1. Neural Network Approximation, with R. DeVore and G. Petrova, Acta Numerica (2020) [ArXiv](https://arxiv.org/abs/2012.14501)
