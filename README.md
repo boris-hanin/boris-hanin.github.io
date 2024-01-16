@@ -94,7 +94,8 @@ All these journals are always looking for high quality submissions on theoretica
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 #### **Conference Articles**
-1. Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit, with B. Bordelon, L. Noci, M. Li, and C. Pehlevan (2023). ICLR 2024. [ArXiv](https://arxiv.org/abs/2309.16620)
+1. Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit, with B. Bordelon, L. Noci, M. Li, and C. Pehlevan. ICLR 2024. [ArXiv](https://arxiv.org/abs/2309.16620)
+2. Principled Architecture-Aware Scaling of Hyperparameters, with W. Chen, J. Wu, and Z. Wang. ICLR 2024. [OpenReview](https://openreview.net/forum?id=HZndRcfyNI&noteId=zGx8zNq5dt)
 1. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
 5. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
 1.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
