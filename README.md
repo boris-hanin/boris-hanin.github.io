@@ -47,7 +47,7 @@ All these journals are always looking for high quality submissions on theoretica
 
 1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. 
 2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
-3. Neural Networks at Large and Infinite Width (joint with Yasaman Bahri). Les Houches Summer School on Statistical Physics of Machine Learning (France). July 2022. Lecture 1 [video](https://www.youtube.com/watch?v=mEdUi8gu3vE&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=4), Lecture 2 [video](https://www.youtube.com/watch?v=o4tDhCJTu0M&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=5), Lecture Notes [arXiv](https://arxiv.org/abs/2309.01592)
+3. Neural Networks at Large and Infinite Width (joint with Yasaman Bahri). Les Houches Summer School on Statistical Physics of Machine Learning (France). July 2022. [notes](https://arxiv.org/abs/2309.01592); Lecture 1 [video](https://www.youtube.com/watch?v=mEdUi8gu3vE&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=4), Lecture 2 [video](https://www.youtube.com/watch?v=o4tDhCJTu0M&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=5), Lecture Notes [arXiv](https://arxiv.org/abs/2309.01592)
    
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
