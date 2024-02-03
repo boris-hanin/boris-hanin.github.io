@@ -46,30 +46,10 @@ All these journals are always looking for high quality submissions on theoretica
 
 ### Short Courses
 
-1. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
-2. Neural Networks at Large and Infinite Width (joint with Yasaman Bahri). Les Houches Summer School on Statistical Physics of Machine Learning (France). July 2022. Lecture 1 [video](https://www.youtube.com/watch?v=mEdUi8gu3vE&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=4), Lecture 2 [video](https://www.youtube.com/watch?v=o4tDhCJTu0M&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=5), Lecture Notes [arXiv](https://arxiv.org/abs/2309.01592)
-
-### Workshops, Seminars, and Summer Schools
-
-1. September 2023. Wharton Statistics PRiML Seminar.
-2. September 2023. Harvard Statistics Colloquium.
-3. August 2023. IAIFI 2023 Summer Workshop on Physics and Machine Learning (IAIFI, Boston)
-4. August 2023. Two-day program on the theoretical aspects of Machine Learning at the Center for Brain Minds and Machines Summer School in Woods Hole, MA.
-5. August 2023. Workshop on ”Statistical Physics and Machine Learning: Back Together Again” (CNRS Cargese Physics Center, Corsica)
-6. June 2023. 2023 Deep Learning: Theory, Algorithms, and Applications (Fondazione Bruno Kessler) - [slides](https://github.com/boris-hanin/boris-hanin.github.io/blob/7839071beba7e615e14a2dfe57f3c807279556cc/Hanin_slides.pdf)
-7. May 2023. International Conference on Approximation Theory and Beyond (Vanderbilt)
-8. May 2023. CMSA Probability Seminar (Harvard)
-9. March 2023. 2023 Workshop on Machine Learning Theory and Foundations (Beijing - remote)
-10. March 2023. Artificial Intelligence and Mathematics Seminar (Remote Seminar Series run by Istituto per le Applicazioni del Calcolo) - [video](https://www.youtube.com/watch?v=EC9oVJTTtgQ)
-11. March 2023. Undergraduate Colloquium (Northwestern Math)
-12. March 2023. Theoretical Physics for Machine Learning, Aspen Center For Physics (Aspen) 
-13. February 2023. Quantitative Social Science Colloquium (Princeton)
-14. February 2023. AI Institute for Artificial Intelligence and Fundamental Interactions Colloquium (Boston) - [video](https://www.youtube.com/watch?v=Ov8S68KWiPw&t)
-15. January 2023. External Seminar Series, Gatsby Institute for Neuroscience (University College London) 
-16. November 2023. Institute for Foundations of ML (Austin) 
-17. October 2022. Workshop on Machine Learning and It’s Applications (National University of Singapore) - [video](https://mediaweb.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=0b51dce7-89d5-4f75-a58c-afa9001be356)
-18. October 2022. Mathematics and Data Seminar (NYU) 
-19. September 2022. Machine learning in Madrid (virtual)
+1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. 
+2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
+3. Neural Networks at Large and Infinite Width (joint with Yasaman Bahri). Les Houches Summer School on Statistical Physics of Machine Learning (France). July 2022. Lecture 1 [video](https://www.youtube.com/watch?v=mEdUi8gu3vE&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=4), Lecture 2 [video](https://www.youtube.com/watch?v=o4tDhCJTu0M&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=5), Lecture Notes [arXiv](https://arxiv.org/abs/2309.01592)
+   
 
 ## **Papers** [ArXiv](https://arxiv.org/a/hanin_b_1.html)
 
