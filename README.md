@@ -42,9 +42,8 @@ I am an Associate Editor of
 
 All these journals are always looking for high quality submissions on theoretical machine learning. 
 
-## **Talks AY 2022/23**
 
-### Short Courses
+## Short Courses
 
 1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. 
 2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
