@@ -5,6 +5,8 @@
 ## **About Me**
 I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) working on **deep learning, probability, and spectral asymptotics.** Prior to Princeton, I was an Assistant Professor in Mathematics at Texas A&M, an NSF Postdoc at MIT Math, and a PhD student in Math at Northwestern, where I was supervised by Steve Zelditch. 
 
+I am also an advisor and member of the technical staff at [Foundry Technologies Inc.](https://www.mlfoundry.com/), an incredible AI/computing startup that seeks to orchestrate the world's compute. 
+
 **Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754 and NSF grants DMS-1855684, DMS-2133806. 
 
 Please see my [CV](/CV.pdf) for more information.
