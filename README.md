@@ -27,7 +27,7 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/)  and [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang).
+- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), and [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo)
 
 - I am excited to be working with two phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io) and [Mufan Li](https://mufan-li.github.io).
 
