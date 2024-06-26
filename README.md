@@ -57,19 +57,18 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
-1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630
-)
+1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, I. Stoica, and J. Zou (2024) [ArXiv](https://arxiv.org/abs/2403.02419)
 1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti  (2023) [ArXiv](https://arxiv.org/abs/2307.06092)
-1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort  (2023) [ArXiv](https://arxiv.org/abs/2306.11668)
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
-1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies (2022)  [ArXiv](https://arxiv.org/abs/2204.01058)
 1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
 2.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
 
 
 #### **Journal Articles**
-1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, PNAS (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
+1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies. Journal of Machine Learning Research (2024)  [ArXiv](https://arxiv.org/abs/2204.01058)
+1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort. SIAM Journal on Mathematics of Data Science (2024) [ArXiv](https://arxiv.org/abs/2306.11668)
+1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, Proceedings of the National Acacdemy of Science (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
 8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability, 2023, Vol. 33, No. 6A, 4798 – 4819 [ArXiv](https://arxiv.org/abs/2107.01562)
 9. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
 14. Products of Many Large Random Matrices and Gradients in Deep Neural Networks, with M. Nica. Communications in Mathematical Physics (2020) [ArXiv](https://arxiv.org/abs/1812.05994)
