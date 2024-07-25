@@ -57,6 +57,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, I. Stoica, and J. Zou (2024) [ArXiv](https://arxiv.org/abs/2403.02419)
 1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti  (2023) [ArXiv](https://arxiv.org/abs/2307.06092)
