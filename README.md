@@ -17,19 +17,19 @@ Please see my [CV](/CV.pdf) for more information.
 
 ## **News**
 <!-- -  I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)). -->
-- Together with Gage DeZoort, Mariangela Lisanti, Dan Marlow, and Peter Elmer, I am co-organizing at new seminar on Machine Learning in Physics. Here is the [website](https://ml.physics.princeton.edu). 
+<!-- - Together with Gage DeZoort, Mariangela Lisanti, Dan Marlow, and Peter Elmer, I am co-organizing at new seminar on Machine Learning in Physics. Here is the [website](https://ml.physics.princeton.edu). -->
 -  Together with Jacob Foster (Sociology, UCLA), Jessica Flack (Collective Computation Group, Santa Fe Institute), Josh Tenenbaum (Brain and Cognitive Science, MIT), Max Kleiman-Weiner (Common Sense Machines), Orit Peleg (Computer Science, Colorado), Patrick Shafto (Rutgers/IAS, Mathematics), Pranab Das (Physics, Elon), Tom Griffiths (AI & Cognitive Science, Princeton) I am organizing a semester-long program at IPAM in Fall 2024 on the Mathematics of Intelligences. This program will bring together researchers working on learning in both biological and artifical settings with the goal of identifying and making progress on mathemcial questions related to learning and intelligence. Here is the [website](https://www.ipam.ucla.edu/programs/long-programs/mathematics-of-intelligences/).
 <!-- -  I am speaking at a two-day program in mid-August on the theoretical aspects of Machine Learning at the Center for Brains, Minds, and Machines [Summer School](https://cbmm.mit.edu/summer-school) in Woods Hole, MA. -->
 <!-- -  I am speaking at a [workshop](https://cargese2023.github.io) on statistical physics and machine learning in beautiful Cargese, Corsica, which runs July 31 - August 12. -->
 <!-- -  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School. -->
--  I am organizing in Summer 2024 another installment of the Princeton Machine Learning Theory Summer School [website](https://mlschool.princeton.edu).
+<!-- -  I am organizing in Summer 2024 another installment of the Princeton Machine Learning Theory Summer School [website](https://mlschool.princeton.edu).-->
 <!-- -  I am giving a mini-course on wide neural networks at the Rome Center on Mathematics for Modeling and Data Sciences. Here are some [notes](/TV_Lectures.pdf). -->
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), and [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo)
+- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), and [Alex Negron](https://alexnegron.com/)
 
-- I am excited to be working with two phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io) and [Mufan Li](https://mufan-li.github.io).
+- I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Mufan Li](https://mufan-li.github.io), and [Noam Razin](https://noamrazin.github.io/#news)
 
 ### **First Placement of Former Members**
 
