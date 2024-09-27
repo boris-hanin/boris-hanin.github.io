@@ -27,7 +27,7 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), and [Alex Negron](https://alexnegron.com/)
+- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), and [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman)
 
 - I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Mufan Li](https://mufan-li.github.io), and [Noam Razin](https://noamrazin.github.io/#news)
 
