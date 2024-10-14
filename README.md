@@ -57,6 +57,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora (2024) [ArXiv](https://arxiv.org/abs/2410.08847)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti  (2023) [ArXiv](https://arxiv.org/abs/2307.06092)
