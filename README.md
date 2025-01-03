@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/17192187/208241293-8cc211ec-8af6-446d-b4aa-e10e4b7581af.jpeg)
  
 ## **About Me**
-I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) (and Affiliated with [Princeton PACM](https://www.pacm.princeton.edu/)) working on **deep learning, probability, and spectral asymptotics.** Prior to Princeton, I was an Assistant Professor in Mathematics at Texas A&M, an NSF Postdoc at MIT Math, and a PhD student in Math at Northwestern, where I was supervised by Steve Zelditch. 
+I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) (and Associated Faculty at [Princeton PACM](https://www.pacm.princeton.edu/)) working on **deep learning, probability, and spectral asymptotics.** Prior to Princeton, I was an Assistant Professor in Mathematics at Texas A&M, an NSF Postdoc at MIT Math, and a PhD student in Math at Northwestern, where I was supervised by Steve Zelditch. 
 
 I am also an advisor and member of the technical staff at [Foundry](https://www.mlfoundry.com/), an incredible AI/computing startup that seeks to orchestrate the world's compute. 
 
