@@ -7,7 +7,7 @@ I am an Assistant Professor at [Princeton ORFE](https://orfe.princeton.edu/) (an
 
 I am also an advisor and member of the technical staff at [Foundry](https://www.mlfoundry.com/), an incredible AI/computing startup that seeks to orchestrate the world's compute. 
 
-**Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754 and NSF grants DMS-1855684, DMS-2133806. 
+**Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754, NSF grants DMS-1855684, DMS-2133806, and a DARPA AIQ grant (HR001124S0029)
 
 Please see my [CV](/CV.pdf) for more information.
 
@@ -15,10 +15,10 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 
-## **News**
+<!--## **News**-->
 <!-- -  I am currently looking for grad students and postdocs. If you are a student at Princeton looking to work on deep learning theory, feel free to reach out (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)). -->
 <!-- - Together with Gage DeZoort, Mariangela Lisanti, Dan Marlow, and Peter Elmer, I am co-organizing at new seminar on Machine Learning in Physics. Here is the [website](https://ml.physics.princeton.edu). -->
--  Together with Jacob Foster (Sociology, UCLA), Jessica Flack (Collective Computation Group, Santa Fe Institute), Josh Tenenbaum (Brain and Cognitive Science, MIT), Max Kleiman-Weiner (Common Sense Machines), Orit Peleg (Computer Science, Colorado), Patrick Shafto (Rutgers/IAS, Mathematics), Pranab Das (Physics, Elon), Tom Griffiths (AI & Cognitive Science, Princeton) I am organizing a semester-long program at IPAM in Fall 2024 on the Mathematics of Intelligences. This program will bring together researchers working on learning in both biological and artifical settings with the goal of identifying and making progress on mathemcial questions related to learning and intelligence. Here is the [website](https://www.ipam.ucla.edu/programs/long-programs/mathematics-of-intelligences/).
+<!-- -  Together with Jacob Foster (Sociology, UCLA), Jessica Flack (Collective Computation Group, Santa Fe Institute), Josh Tenenbaum (Brain and Cognitive Science, MIT), Max Kleiman-Weiner (Common Sense Machines), Orit Peleg (Computer Science, Colorado), Patrick Shafto (Rutgers/IAS, Mathematics), Pranab Das (Physics, Elon), Tom Griffiths (AI & Cognitive Science, Princeton) I am organizing a semester-long program at IPAM in Fall 2024 on the Mathematics of Intelligences. This program will bring together researchers working on learning in both biological and artifical settings with the goal of identifying and making progress on mathemcial questions related to learning and intelligence. Here is the [website](https://www.ipam.ucla.edu/programs/long-programs/mathematics-of-intelligences/).-->
 <!-- -  I am speaking at a two-day program in mid-August on the theoretical aspects of Machine Learning at the Center for Brains, Minds, and Machines [Summer School](https://cbmm.mit.edu/summer-school) in Woods Hole, MA. -->
 <!-- -  I am speaking at a [workshop](https://cargese2023.github.io) on statistical physics and machine learning in beautiful Cargese, Corsica, which runs July 31 - August 12. -->
 <!-- -  I will be a plenary speaker at the 2023 IAIFI Summer Workshop on Theoretical Physics and ML in August 2023. This [workshop](https://iaifi.org/summer-workshop.html) will immediately follow the 2023 IAIFI Summer School. -->
@@ -27,7 +27,7 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), and [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman)
+- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), and [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman). I am also fortunate that [Lorenzo Noci](https://da.inf.ethz.ch/people/LorenzoNoci) will be visiting from ETH Zurich in Spring 2025.
 
 - I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Mufan Li](https://mufan-li.github.io), and [Noam Razin](https://noamrazin.github.io/#news)
 
@@ -47,7 +47,8 @@ All these journals are always looking for high quality submissions on theoretica
 
 ## Short Courses
 
-1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. 
+1. Statistical Physics for Neural Networks. University of Oxford. March 2025. Upcoming.
+1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. Lecture 1 [video](https://www.youtube.com/watch?v=G5W_oOnKMgc), Lecture 2 [video](https://www.youtube.com/watch?v=-Mq3_mhEaYw), Lecture 3 [video](https://www.youtube.com/watch?v=bIigKIm9B2s)
 2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
 3. Neural Networks at Large and Infinite Width (joint with Yasaman Bahri). Les Houches Summer School on Statistical Physics of Machine Learning (France). July 2022. Lecture 1 [video](https://www.youtube.com/watch?v=mEdUi8gu3vE&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=4), Lecture 2 [video](https://www.youtube.com/watch?v=o4tDhCJTu0M&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=5), Lecture Notes [arXiv](https://arxiv.org/abs/2309.01592) [J. Stat. Mech.](https://iopscience.iop.org/article/10.1088/1742-5468/ad2dd3/pdf)
    
@@ -60,13 +61,13 @@ All these journals are always looking for high quality submissions on theoretica
 1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora (2024) [ArXiv](https://arxiv.org/abs/2410.08847)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630)
-1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti  (2023) [ArXiv](https://arxiv.org/abs/2307.06092)
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
 1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
 2.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
 
 
 #### **Journal Articles**
+1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti. In Press: Probability Theory and Related Fields (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
 1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies. Journal of Machine Learning Research (2024)  [ArXiv](https://arxiv.org/abs/2204.01058)
 1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort. SIAM Journal on Mathematics of Data Science (2024) [ArXiv](https://arxiv.org/abs/2306.11668)
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, Proceedings of the National Acacdemy of Science (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
