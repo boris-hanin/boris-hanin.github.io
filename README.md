@@ -58,7 +58,6 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
-1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora (2024) [ArXiv](https://arxiv.org/abs/2410.08847)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
@@ -79,6 +78,7 @@ All these journals are always looking for high quality submissions on theoretica
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 #### **Conference Articles**
+1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora. ICLR 2025 [ArXiv](https://arxiv.org/abs/2410.08847)
 1. Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, I. Stoica, and J. Zou (2024). NeurIPS 2024 [ArXiv](https://arxiv.org/abs/2403.02419)
 1. Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit, with B. Bordelon, L. Noci, M. Li, and C. Pehlevan. ICLR 2024. [ArXiv](https://arxiv.org/abs/2309.16620)
 2. Principled Architecture-Aware Scaling of Hyperparameters, with W. Chen, J. Wu, and Z. Wang. ICLR 2024. [Arxiv](https://arxiv.org/abs/2402.17440)
