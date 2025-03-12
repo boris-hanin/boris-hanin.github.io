@@ -58,6 +58,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
 1. BARE: Combining Base and Instruction-Tuned Language Models for Better Synthetic Data Generation, with A. Zhu, P. Asawa, J. Q. Davis, L. Chen, I. Stoica, J. Gonzalez, M. Zaharia (2025) [ArXiv](https://arxiv.org/abs/2502.01697)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
