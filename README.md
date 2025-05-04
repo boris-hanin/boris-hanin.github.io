@@ -27,13 +27,15 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Pierfrancesco Beneventano](https://pierbeneventano.github.io/), [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang), [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), and [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman). I am also fortunate that [Lorenzo Noci](https://da.inf.ethz.ch/people/LorenzoNoci) will be visiting from ETH Zurich in Spring 2025.
+- I am fortunate to supervise several excellent PhD students: [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman), [Tianze Jiang](https://petyrrrrr.github.io/). I am also fortunate that [Lorenzo Noci](https://da.inf.ethz.ch/people/LorenzoNoci) will be visiting from ETH Zurich in Spring 2025.
 
-- I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Mufan Li](https://mufan-li.github.io), and [Noam Razin](https://noamrazin.github.io/#news)
+- I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Mufan Li](https://mufan-li.github.io), [Noam Razin](https://noamrazin.github.io/#news), and [Mike Winer](https://www.ias.edu/scholars/michael-winer)
 
 ### **First Placement of Former Members**
 
 - [Samy Jelassi](https://sjelassi.github.io) (Postdoc at Harvard CMSA)
+- [Pierfrancesco Beneventano](https://pierbeneventano.github.io/) (Postdoc at MIT CBMM)
+- [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang) (Research Scientist, Huawei)
 
 ## Professional Service
 I am an Associate Editor of
