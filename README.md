@@ -60,6 +60,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1. Don't be lazy: CompleteP enables compute-efficient deep transformers, with N. Dey, B. Zhang, L. Noci, M. Li, B. Bordelon, S. Bergsma, C. Pehlevan, J. Hestness. (2025) [ArXiv](https://arxiv.org/abs/2505.01618)
 1. Deep Nets as Hamiltonians, with M. Winer. (2025) [ArXiv](https://arxiv.org/abs/2503.23982)
 1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
