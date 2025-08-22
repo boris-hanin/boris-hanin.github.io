@@ -5,10 +5,9 @@
 ## **About Me**
 I am an Associate Professor at [Princeton ORFE](https://orfe.princeton.edu/) (and Associated Faculty at [Princeton PACM](https://www.pacm.princeton.edu/)) working on **deep learning, probability, and spectral asymptotics.** Prior to Princeton, I was an Assistant Professor in Mathematics at Texas A&M, an NSF Postdoc at MIT Math, and a PhD student in Math at Northwestern, where I was supervised by Steve Zelditch. 
 
-I also work part time at [Foundry](https://www.mlfoundry.com/), an incredible AI/computing startup that seeks to orchestrate the world's compute, where I lead the [Foundry Institute](https://mlfoundry.com/foundry-institute).
+I also work part time at [Mithril](https://www.mithril.ai/) (formerly Foundry), an incredible AI/computing startup that seeks to orchestrate the world's compute, where I lead the Mithril Institute.
 
-**Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754, and NSF grant DMS-2133806.
-<!--, and a DARPA AIQ grant (HR001124S0029)-->
+**Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754, and NSF grant DMS-2133806, and DARPA AIQ grant (HR001124S0029).
 
 Please see my [CV](/CV.pdf) for more information.
 
