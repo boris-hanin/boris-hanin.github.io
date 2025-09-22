@@ -61,7 +61,6 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
-1. Don't be lazy: CompleteP enables compute-efficient deep transformers, with N. Dey, B. Zhang, L. Noci, M. Li, B. Bordelon, S. Bergsma, C. Pehlevan, J. Hestness. (2025) [ArXiv](https://arxiv.org/abs/2505.01618)
 1. Deep Nets as Hamiltonians, with M. Winer. (2025) [ArXiv](https://arxiv.org/abs/2503.23982)
 1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
@@ -86,6 +85,7 @@ All these journals are always looking for high quality submissions on theoretica
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 #### **Conference Articles**
+1. Don't be lazy: CompleteP enables compute-efficient deep transformers, with N. Dey, B. Zhang, L. Noci, M. Li, B. Bordelon, S. Bergsma, C. Pehlevan, J. Hestness. NeurIPS 2025. [ArXiv](https://arxiv.org/abs/2505.01618)
 1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora. ICLR 2025 [ArXiv](https://arxiv.org/abs/2410.08847)
 1. Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, I. Stoica, and J. Zou (2024). NeurIPS 2024 [ArXiv](https://arxiv.org/abs/2403.02419)
 1. Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit, with B. Bordelon, L. Noci, M. Li, and C. Pehlevan. ICLR 2024. [ArXiv](https://arxiv.org/abs/2309.16620)
