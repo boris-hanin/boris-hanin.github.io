@@ -27,7 +27,7 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman), [Tianze Jiang](https://petyrrrrr.github.io/), [Francesco Caporali](https://caporali.github.io/), [Shaunak Bhandarkar](https://pni.princeton.edu/people/shaunak-bhandarkar). 
+- I am fortunate to supervise several excellent PhD students: [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (joint with Matias Cattaneo), [Alex Negron](https://alexnegron.com/), [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman), [Tianze Jiang](https://petyrrrrr.github.io/), [Francesco Caporali](https://caporali.github.io/), [Shaunak Bhandarkar](https://pni.princeton.edu/people/shaunak-bhandarkar) (joint with Jonathan Pillow). 
 
 - I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Mike Winer](https://www.ias.edu/scholars/michael-winer), [Mengxuan Yang](https://sites.google.com/view/mxyang), [Vladimir Narovlansky](https://www.ias.edu/scholars/vladimir-narovlansky) 
 
