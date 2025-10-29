@@ -65,13 +65,13 @@ All these journals are always looking for high quality submissions on theoretica
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
 1. BARE: Combining Base and Instruction-Tuned Language Models for Better Synthetic Data Generation, with A. Zhu, P. Asawa, J. Q. Davis, L. Chen, I. Stoica, J. Gonzalez, M. Zaharia (2025) [ArXiv](https://arxiv.org/abs/2502.01697)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
-1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa (2024) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
 1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
 2.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
 
 
 #### **Journal Articles**
+1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa. To Appear in Physical Review Letters (2025) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Deep Nets as Hamiltonians, with M. Winer. To Appear in Physical Review E, 2025 [ArXiv](https://arxiv.org/abs/2503.23982)
 1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti. In Press: Probability Theory and Related Fields, Volume 191, pages 933–977, (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
 1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies. Journal of Machine Learning Research, 25(267):1−58, 2024 [ArXiv](https://arxiv.org/abs/2204.01058)
