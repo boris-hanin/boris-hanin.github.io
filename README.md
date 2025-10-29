@@ -73,7 +73,7 @@ All these journals are always looking for high quality submissions on theoretica
 #### **Journal Articles**
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa. To Appear in Physical Review Letters (2025) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Deep Nets as Hamiltonians, with M. Winer. To Appear in Physical Review E, 2025 [ArXiv](https://arxiv.org/abs/2503.23982)
-1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti. In Press: Probability Theory and Related Fields, Volume 191, pages 933–977, (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
+1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti. Probability Theory and Related Fields, Volume 191, pages 933–977, (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
 1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies. Journal of Machine Learning Research, 25(267):1−58, 2024 [ArXiv](https://arxiv.org/abs/2204.01058)
 1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort. SIAM Journal on Mathematics of Data Science, Vol. 7, No. 1 (2025) [ArXiv](https://arxiv.org/abs/2306.11668)
 1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, Proceedings of the National Acacdemy of Science, Volume 120, No. 23 (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
