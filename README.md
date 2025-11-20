@@ -68,9 +68,7 @@ All these journals are always looking for high quality submissions on theoretica
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
 1. BARE: Combining Base and Instruction-Tuned Language Models for Better Synthetic Data Generation, with A. Zhu, P. Asawa, J. Q. Davis, L. Chen, I. Stoica, J. Gonzalez, M. Zaharia (2025) [ArXiv](https://arxiv.org/abs/2502.01697)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
-1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
-1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
-2.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
+
 
 
 #### **Journal Articles**
@@ -131,4 +129,7 @@ All these journals are always looking for high quality submissions on theoretica
 
 ### **Other**
 1. Contributed research to Principles of Deep Learning Theory, written by D. Roberts and S. Yaida, Cambridge University Press (2021) [ArXiv](https://arxiv.org/abs/2106.10165)
+1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
+1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
+2.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
 34. An Intriguing Property of the Center of Mass for Points on Quadradtic Curves and Surfaces, with L. Hanin and R. Fisher. Mathematics Maganize, v. 80, No. 5, pp. 353-362, 2007.
