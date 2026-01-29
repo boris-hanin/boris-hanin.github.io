@@ -63,6 +63,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1. Hyperparameter Transfer with Mixture-of-Expert Layers, with T. Jiang, B. Bordelon, C. Pehlevan. (2026) [ArXiv](https://arxiv.org/abs/2601.20205)
 1. Implicit Bias of the JKO Scheme, with P. Halmos. (2025) [ArXiv](https://arxiv.org/abs/2511.14827)
 1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
