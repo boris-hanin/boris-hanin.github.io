@@ -52,6 +52,7 @@ All these journals are always looking for high quality submissions on theoretica
 
 ## Short Courses
 
+1. Neural Networks for Mathematicians. University of Chicago. April 2026. [notes](/nn-notes.pdf)
 1. Statistical Physics for Neural Networks. University of Oxford. March 2025. 
 1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. Lecture 1 [video](https://www.youtube.com/watch?v=G5W_oOnKMgc), Lecture 2 [video](https://www.youtube.com/watch?v=-Mq3_mhEaYw), Lecture 3 [video](https://www.youtube.com/watch?v=bIigKIm9B2s). Lecture Notes [pdf](/Univ__Luxembourg_Lectures_June_2024_notes.pdf)
 2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
