@@ -19,7 +19,7 @@ Please see my [CV](/CV.pdf) for more information.
 
 ## **News**
 -  I am currently looking for grad students and postdocs. If you are a student or postdoc at Princeton or the IAS looking to work on deep learning theory, feel free to reach out.
--  I am organizing in August 2026 another installment of the Princeton Machine Learning Theory Summer School [website](https://mlschool.princeton.edu).
+-  I am organizing in August 2026 another installment of the Princeton Machine Learning Theory Summer School (see [website](https://mlschool.princeton.edu)).
 <!-- (see also this somewhat tongue-in-cheek [writeup](/Working_With_Me.pdf)). -->
 <!-- - Together with Gage DeZoort, Mariangela Lisanti, Dan Marlow, and Peter Elmer, I am co-organizing at new seminar on Machine Learning in Physics. Here is the [website](https://ml.physics.princeton.edu). -->
 <!-- -  Together with Jacob Foster (Sociology, UCLA), Jessica Flack (Collective Computation Group, Santa Fe Institute), Josh Tenenbaum (Brain and Cognitive Science, MIT), Max Kleiman-Weiner (Common Sense Machines), Orit Peleg (Computer Science, Colorado), Patrick Shafto (Rutgers/IAS, Mathematics), Pranab Das (Physics, Elon), Tom Griffiths (AI & Cognitive Science, Princeton) I am organizing a semester-long program at IPAM in Fall 2024 on the Mathematics of Intelligences. This program will bring together researchers working on learning in both biological and artifical settings with the goal of identifying and making progress on mathemcial questions related to learning and intelligence. Here is the [website](https://www.ipam.ucla.edu/programs/long-programs/mathematics-of-intelligences/).-->
