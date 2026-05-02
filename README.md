@@ -7,7 +7,7 @@ I am an Associate Professor at [Princeton ORFE](https://orfe.princeton.edu/) (an
 
 I am one of the co-organizers of the [Princeton Probability Seminar](https://www.math.princeton.edu/events/seminars/probability-seminar) and the [alg-ML seminar](https://princeton-alg-ml.github.io).
 
-I also work part time at [Mithril](https://www.mithril.ai/) (formerly Foundry), an incredible AI/computing startup that seeks to orchestrate the world's compute, where I lead the Mithril Institute.
+I am an advsior at [Logical Intelligence]([https://www.mithril.ai/](https://logicalintelligence.com)), an incredible startup that is working on building energy-based reasoning models. 
 
 **Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754, and NSF grant DMS-2133806, and DARPA AIQ grant (HR001124S0029).
 
