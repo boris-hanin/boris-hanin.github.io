@@ -55,14 +55,7 @@ All these journals are always looking for high quality submissions on theoretica
 
 ## **Teaching**
 
-**ORF 526: Probability for Modern Machine Learning.** Princeton, Fall 2026. Twenty-five lectures from Gaussians to diffusion models, assuming no measure theory. [syllabus](/prob-ml/syllabus.html)
-
-*Lecture notes*
-1. Gaussians: definition, linear structure, and conditioning as projection [pdf](/prob-ml/lectures-1-2.pdf)
-
-*Problem sets*
-1. Entropy, and why the Gaussian maximizes it [pdf](/prob-ml/hw01.pdf)
-1. Fitting is conditioning [pdf](/prob-ml/hw02.pdf)
+**ORF 526: Probability for Modern Machine Learning.** Princeton, Fall 2026. Twenty-five lectures from Gaussians to diffusion models, assuming no measure theory. Schedule, lecture notes, and problem sets on the [course page](/prob-ml/).
 
 
 ## Short Courses
