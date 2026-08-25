@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in,top=0.85in,bottom=0.8in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\definecolor{acc}{HTML}{1B6B58}
+\definecolor{grey}{HTML}{5C6763}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Poi}{\mathrm{Poisson}}
+\newcommand{\Ber}{\mathrm{Bernoulli}}
+\newcommand{\TV}{d_{\mathrm{TV}}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+
+\begin{document}
+
+{\footnotesize\color{acc}\textsc{ORF 526 \quad$\cdot$\quad Quiz 2 \quad$\cdot$\quad instructor key --- not for distribution}}
+
+\vspace{0.4em}
+{\large\bfseries Quiz 2 --- answers and marking notes}
+
+\vspace{0.4em}
+\hrule height 0.5pt
+\vspace{0.4em}
+
+\textbf{1.} \ (a) $\varphi_B(t)=(1-p)+pe^{it}=1+p(e^{it}-1)$.
+
+(b) $\displaystyle\varphi_{N_n}(t)=\Big[1+\tfrac{\lambda}{n}(e^{it}-1)\Big]^{n}\longrightarrow \exp\big(\lambda(e^{it}-1)\big)$, the characteristic function of $\Poi(\lambda)$.
+
+(c) \textbf{Independence}, which is what gives $\varphi_{N_n}=\varphi_{B}^{\,n}$.
+
+{\color{grey}\emph{Marking.} Part (c) is the one that matters and the one most likely to be skipped; the whole point of the week is that this step is where independence is spent. Accept ``the $B_{n,i}$ are i.i.d.'' but probe whether the student knows that \emph{identical} distribution only lets them write one factor $n$ times --- it is independence that lets them multiply at all. Do not require the $(1+z/n)^n\to e^z$ lemma to be quoted by name.}
+
+\vspace{0.9em}
+
+\textbf{2.} \ (a) $\E W=\sum_i\Prob(\pi(i)=i)=n\cdot\tfrac1n=1$.
+
+(b) \textbf{Independence of the indicators.} The $I_i$ are dependent: $\Prob(I_1=I_2=1)=\frac{1}{n(n-1)}$, whereas $\Prob(I_1=1)\Prob(I_2=1)=\frac{1}{n^2}$. Le Cam's hypothesis is not satisfied, so the theorem says nothing here.
+
+(c) A theorem whose hypotheses fail proves nothing, whatever the truth of its conclusion. The bound has to be obtained another way --- in Homework 4, by a coupling.
+
+{\color{grey}\emph{Marking.} This is the question that separates students who memorised a formula from students who read its hypotheses. Full credit in (b) requires naming \emph{independence} specifically, not ``the $I_i$ aren't nice'' or ``$W$ isn't a sum of Bernoullis'' --- it is a sum of Bernoullis, which is exactly the trap. In (c), the sentence must locate the flaw in the \emph{argument}, not in the conclusion; ``the bound is loose'' misses the point and earns nothing.}
+
+\vspace{0.9em}
+
+\textbf{3.} \ (a) $\displaystyle \E[W'-W\mid X_1,\dots,X_n]=-\tfrac{1}{\sqrt n}\,\E[X_I-X_I'\mid X_1,\dots,X_n]=-\tfrac{1}{\sqrt n}\Big(\tfrac1n\sum_iX_i-0\Big)=-\frac{W}{n}.$
+
+(b) $a=1/n$, by the tower property.
+
+(c) Because the bound of Homework 4 needs only $\E[W'-W\mid W]$ and $\E[(W'-W)^2\mid W]$ --- conditional moments of a coupling, which can be computed without ever factorising $\E[X_if(W^{(i)})]$ into $\E[X_i]\,\E[f(W^{(i)})]$.
+
+{\color{grey}\emph{Marking.} In (a) the two things to check are that $\E[X_I'\mid X_1,\dots,X_n]=0$ (the fresh copy is independent of everything conditioned on) and that averaging over $I$ produces $\frac1n\sum_iX_i$. A student who writes $\E[X_I\mid X_1,\dots,X_n]=X_I$ has not seen that $I$ is random and should lose (a) but may still earn (b) and (c). Accept any (c) that identifies the payoff as ``only conditional moments of the pair are needed''.}
+
+\vspace{1.1em}
+\hrule height 0.4pt
+\vspace{0.3em}
+{\footnotesize\color{grey} Sources: Q1 from Homework 3, Problems 3 and 5 (core); Q2 from Homework 4, Problem 10 (core); Q3 from Homework 4, Problem 5 (core). Question types rotate against Quiz 1, which used \textsc{compute}, \textsc{compute}, \textsc{which hypothesis fails}.}
+
+\end{document}

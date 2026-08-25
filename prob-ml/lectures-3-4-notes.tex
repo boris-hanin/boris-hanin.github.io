@@ -1,0 +1,384 @@
+\documentclass[11pt]{article}
+\input{preamble}
+\newcommand{\Poi}{\mathrm{Poisson}}
+\newcommand{\Ber}{\mathrm{Bernoulli}}
+\newcommand{\TV}{d_{\mathrm{TV}}}
+\begin{document}
+
+\begin{center}
+{\footnotesize\color{acc}\textsc{ORF 526 \quad$\cdot$\quad Probability for Modern Machine Learning \quad$\cdot$\quad Fall 2026}}\\[0.5em]
+{\LARGE\bfseries Lectures 3 and 4: The Central Limit Theorem}\\[0.35em]
+{\color{grey} Swapping, the Lindeberg condition, and Stein's method}
+\end{center}
+\vspace{0.4em}
+\hrule height 0.5pt
+\vspace{0.6em}
+
+\begin{roadmap}
+{\color{acc}\textsc{outline}}\ \ maximum entropy\rmto why a Gaussian at all\rmto swap one summand at a time\rmto the CLT, and Lindeberg's condition\rmto NNGP\\[0.35em]
+\phantom{{\color{acc}\textsc{outline}}}\ \ $\E[Wf(W)]=\E[f'(W)]$\rmto Stein's equation\rmto the CLT with a rate\rmto the same argument for Poisson\\[0.35em]
+{\color{acc}\textsc{how to read}}\ \ Sections marked \textcolor{acc}{$\ast$} are not lectured. They are complete, they are examinable, and they carry most of the exercises. Exercises are typed \textsc{a}, \textsc{b} and \textsc{c}; each week's quiz has one of each.
+\end{roadmap}
+
+\section{Why Gaussians appear, and the CLT by swapping}
+
+Lectures 1 and 2 said what a Gaussian is and how to condition one. Neither said why one keeps meeting them.
+
+\begin{question}
+\textbf{Q.} Why should the Gaussian, of all laws, be the one that appears?
+\end{question}
+
+\subsection{Notation}
+
+Throughout, $X_1,X_2,\dots$ are independent and identically distributed with mean $0$ and variance $1$, and
+\[
+S_n\;:=\;\frac{1}{\sqrt n}\sum_{i=1}^n X_i .
+\]
+The normalization is chosen so that $\Var(S_n)=1$ for every $n$. We write $g\sim\Nor(0,1)$, and $\gamma$ for its law.
+
+\begin{recall}
+\textbf{From Homework 1.} For a random variable $X$ on $\R$ with density $p$, the \emph{differential entropy} is $h(X)=-\int p\log p$, and the \emph{relative entropy} of $X$ from $\gamma$ is $D(X\|\gamma)=\int p\log(p/\phi)$, where $\phi$ is the standard normal density. Both may be $+\infty$, and $h$ is undefined when $X$ has no density.
+\end{recall}
+
+\subsection{The moral answer}
+
+Homework 1 supplies two facts. First, at fixed variance the Gaussian maximizes entropy: $h(X)\le h(g)$ whenever $\Var(X)=1$. Second, for symmetric i.i.d.\ $X,Y$,
+\[
+h\Big(\tfrac{X+Y}{\sqrt2}\Big)\;\ge\;h(X),
+\]
+because $(x,y)\mapsto\big(\tfrac{x+y}{\sqrt2},\tfrac{x-y}{\sqrt2}\big)$ is orthogonal, orthogonal maps preserve differential entropy, and entropy is subadditive.
+
+Since $S_{2^k}=\tfrac{1}{\sqrt2}(S'_{2^{k-1}}+S''_{2^{k-1}})$ for two independent copies, $h(S_{2^k})$ increases in $k$ and never exceeds $h(g)$. So it converges, and the maximizer is the only candidate for the limit.
+
+\subsection{The entropic CLT}
+
+The heuristic is a theorem.
+
+\begin{theorem}[Barron, 1986]
+If $D(S_m\|\gamma)<\infty$ for some $m$, then $D(S_n\|\gamma)\to0$; equivalently $h(S_n)\to h(g)$.
+\end{theorem}
+
+\begin{theorem}[Artstein--Ball--Barthe--Naor, 2004]
+$h(S_n)$ is increasing in $n$, not merely along powers of two.
+\end{theorem}
+
+We will not prove either.
+
+\begin{example}[The entropic CLT says nothing about a coin flip]\label{ex:coin}
+Let $X_i=\pm1$ with probability $\tfrac12$ each. Then $S_n$ is supported on a finite set for every $n$, so it has no density, $h(S_n)$ is undefined, and $D(S_n\|\gamma)=\infty$ for every $m$ and $n$. The hypothesis of Barron's theorem never holds.
+\end{example}
+
+The classical central limit theorem holds for $\pm1$ regardless. We need a proof that covers Example~\ref{ex:coin}.
+
+\subsection{Lindeberg's swapping argument}
+
+Exchange the summands for Gaussians one at a time, and check that each exchange is cheap.
+
+\begin{theorem}[Central limit theorem]\label{thm:clt}
+Suppose in addition $\E|X_1|^3<\infty$. Then for every $f\in C^3(\R)$ with bounded third derivative,
+\[
+\big|\E f(S_n)-\E f(g)\big|\;\le\;\frac{\|f'''\|_\infty}{6\sqrt n}\Big(\E|X_1|^3+\E|g|^3\Big).
+\]
+\end{theorem}
+
+\begin{proof}
+Let $g_1,\dots,g_n$ be i.i.d.\ standard Gaussians, independent of the $X_i$, and interpolate:
+\[
+Z_k \;=\; \frac{1}{\sqrt n}\big(g_1+\dots+g_k+X_{k+1}+\dots+X_n\big),\qquad k=0,\dots,n,
+\]
+so $Z_0=S_n$ and $Z_n\sim\Nor(0,1)$. Telescoping,
+\[
+\E f(S_n)-\E f(g)\;=\;\sum_{k=1}^n\Big(\E f(Z_{k-1})-\E f(Z_k)\Big).
+\]
+Fix $k$ and write $W_k=\frac{1}{\sqrt n}\big(g_1+\dots+g_{k-1}+X_{k+1}+\dots+X_n\big)$, which is independent of both $X_k$ and $g_k$. Then $Z_{k-1}=W_k+X_k/\sqrt n$ and $Z_k=W_k+g_k/\sqrt n$, and Taylor's theorem gives
+\[
+f(W_k+u)=f(W_k)+uf'(W_k)+\tfrac{u^2}{2}f''(W_k)+R(u),\qquad |R(u)|\le\tfrac{\|f'''\|_\infty}{6}|u|^3 .
+\]
+Take expectations of both expansions and subtract. The constant terms cancel. The linear terms cancel because $W_k$ is independent of $X_k$ and $g_k$ and both have mean $0$. The quadratic terms cancel because both have variance $1$. Only the remainders survive:
+\[
+\big|\E f(Z_{k-1})-\E f(Z_k)\big|\;\le\;\frac{\|f'''\|_\infty}{6\,n^{3/2}}\Big(\E|X_k|^3+\E|g_k|^3\Big).
+\]
+Summing the $n$ terms gives the claim.
+\end{proof}
+
+The proof used Taylor's theorem and nothing else. In particular it never objected to $X_i=\pm1$.
+
+\begin{imported}
+\textbf{Imported.} Convergence of $\E f(S_n)$ for every $f\in C^3$ with bounded derivatives implies it for every bounded continuous $f$, by a smoothing argument. We define $X_n\Rightarrow X$ to mean $\E f(X_n)\to\E f(X)$ for all bounded continuous $f$.
+\end{imported}
+
+The classical argument --- expand $\varphi_{X_1}(t/\sqrt n)$ and take $n$th powers --- has been available since Lecture 1. Homework 3 carries it out and locates what it costs.
+
+\subsection{What the proof actually needed}
+
+The argument never used that the $X_i$ share a law, nor that they are one-dimensional --- the same swap with multivariate Taylor gives the multidimensional central limit theorem verbatim. What it did use is that no single summand carries much of the variance.
+
+\begin{definition}[Lindeberg's condition]\label{def:lind}
+Let $\{X_{n,i}\}_{i\le k_n}$ be a triangular array, independent within rows, with $\E X_{n,i}=0$ and $s_n^2=\sum_i\Var(X_{n,i})$. The array satisfies \emph{Lindeberg's condition} if for every $\varepsilon>0$
+\[
+L_n(\varepsilon)\;:=\;\frac{1}{s_n^2}\sum_i\E\Big[X_{n,i}^2\,\mathbf 1\{|X_{n,i}|>\varepsilon s_n\}\Big]\;\longrightarrow\;0 .
+\]
+\end{definition}
+
+Under this condition $s_n^{-1}\sum_i X_{n,i}\Rightarrow\Nor(0,1)$, by the same interpolation with the third-moment bound replaced by a truncation.
+
+This is not a technical hypothesis inserted to make a proof work. It separates two regimes: many small contributions give a Gaussian, and a few rare ones give a Poisson. Homework 3 computes both sides of the boundary; \S2.4 proves the Poisson statement, with a rate.
+
+\begin{remark}[The limit is universal, the rate is not]
+Kolmogorov--Smirnov distance from $S_{30}$ to $\Nor(0,1)$, by simulation: uniform $0.0014$, exponential $0.025$, $\pm1$ $0.073$. The limit does not depend on the law of $X_1$; the speed does, and lattice summands are slowest.
+\end{remark}
+
+\subsection{A wide network at initialization}
+
+The multidimensional statement is the one that pays.
+
+Fix a nonlinearity $\sigma:\R\to\R$ and let
+\[
+f_m(x)\;=\;\frac{1}{\sqrt m}\sum_{j=1}^{m}a_j\,\sigma\big(\langle w_j,x\rangle\big),\qquad x\in\R^d,
+\]
+with $w_1,\dots,w_m$ i.i.d.\ in $\R^d$ and $a_1,\dots,a_m$ i.i.d.\ with mean $0$ and variance $\sigma_a^2$, independent of the $w_j$. This is a one-hidden-layer network of width $m$ at initialization, normalized so that $\Var f_m(x)$ does not move as the width grows.
+
+\begin{proposition}\label{prop:nngp}
+Fix finitely many inputs $x_1,\dots,x_k$ and suppose $\E[\sigma(\langle w,x_i\rangle)^2]<\infty$ for each $i$. Then
+\[
+\big(f_m(x_1),\dots,f_m(x_k)\big)\;\Longrightarrow\;\Nor(0,K),\qquad
+K(x,x')=\sigma_a^2\,\E\big[\sigma(\langle w,x\rangle)\,\sigma(\langle w,x'\rangle)\big].
+\]
+\end{proposition}
+
+\begin{proof}
+Put $V_j=\big(a_j\sigma(\langle w_j,x_1\rangle),\dots,a_j\sigma(\langle w_j,x_k\rangle)\big)\in\R^k$. The $V_j$ are i.i.d.; $\E V_j=0$ because $a_j$ has mean $0$ and is independent of $w_j$; and $\Cov(V_j)=K$ by the same independence. The vector in question is $m^{-1/2}\sum_j V_j$, so this is the multidimensional central limit theorem. Alternatively, apply Theorem~\ref{thm:clt} to $\langle v,V_j\rangle$ for each fixed $v\in\R^k$ and appeal to Corollary 1.5 of Lectures 1--2.
+\end{proof}
+
+The limit is Gaussian whatever $\sigma$ and whatever the law of the weights: those enter only through $K$, and the rest of the architecture is erased. And $K$ is computable --- for $\sigma=\max(\cdot,0)$ and $w\sim\Nor(0,I_d)$,
+\[
+\E\big[\sigma(\langle w,x\rangle)\sigma(\langle w,x'\rangle)\big]
+=\frac{\|x\|\,\|x'\|}{2\pi}\Big(\sin\theta+(\pi-\theta)\cos\theta\Big),
+\qquad \theta=\angle(x,x') .
+\]
+
+\begin{remark}
+Proposition~\ref{prop:nngp} concerns finitely many inputs. Holding for every finite subset of $\R^d$ at once is what it means to call the limit a \emph{Gaussian process} with kernel $K$ --- Lecture 9. Conditioning it on data is Theorem 2.3 of Lectures 1--2 with $\Sigma$ replaced by the kernel matrix, so an infinitely wide network fitted by exact Bayesian inference is kernel regression with kernel $K$. At finite width $f_m$ is not Gaussian, and the size of the discrepancy is a question about the \emph{rate} in Proposition~\ref{prop:nngp}, which Lecture 4 supplies.
+\end{remark}
+
+
+\starsec{The proof we did not give}\label{sec:transformproof}
+
+\emph{Not lectured. Exercises due at the start of Lecture 4.} Characteristic functions turn sums into products, and a product of $n$ nearly-equal factors is an exponential. That is the older proof of Theorem~\ref{thm:clt}, and it is worth carrying out once --- both to see what it costs, and because the transform does two things at the end of this section that the swap does not.
+
+\begin{imported}
+\textbf{Imported: L\'evy's continuity theorem.} If $\varphi_{Y_n}(t)\to\psi(t)$ for every $t$ and $\psi$ is continuous at $0$, then $\psi=\varphi_Y$ for some $Y$ and $Y_n\Rightarrow Y$. It is the only thing below taken on faith.
+\end{imported}
+
+\begin{exercise}[\ty{A}]
+For $\E|X|^k<\infty$, differentiate under the integral to get $\varphi_X^{(k)}(0)=i^k\E[X^k]$. Check it against $\varphi(t)=e^{-t^2/2}$ by computing $\varphi''(0)$ and $\varphi^{(4)}(0)$, recovering $\E g^2=1$ and $\E g^4=3$.
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+For $\E X=0$, $\E X^2=1$, show $\varphi_X(t)=1-\tfrac{t^2}{2}+r(t)$ with $r(t)/t^2\to0$. \emph{Use $|e^{i\theta}-1-i\theta+\theta^2/2|\le\min(|\theta|^3/6,\theta^2)$ with $\theta=tX$; the second bound in the minimum is what lets you avoid assuming a third moment.}
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+Show $(1+z_n/n)^n\to e^z$ whenever $z_n\to z$ in $\mathbb{C}$ \emph{(for $|a|,|b|\le M$, $|a^n-b^n|\le nM^{n-1}|a-b|$; take $b=e^{z_n/n}$)}. Combine with the previous exercise to get $\varphi_{S_n}(t)=[\varphi_{X_1}(t/\sqrt n)]^n\to e^{-t^2/2}$ and conclude $S_n\Rightarrow\Nor(0,1)$. Note where independence was used, and where identical distribution was used.
+\end{exercise}
+
+\begin{exercise}[\ty{A}]
+Let $B\sim\Ber(p)$; show $\varphi_B(t)=1+p(e^{it}-1)$. For independent $B_{n,i}\sim\Ber(\lambda/n)$ with $N_n=\sum_iB_{n,i}$, show $\varphi_{N_n}(t)\to\exp(\lambda(e^{it}-1))$ and identify the limit as $\Poi(\lambda)$ by summing the series. \emph{The same three lines as the previous exercise; only the normalization differs.}
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+For the centred array $X_{n,i}=B_{n,i}-\lambda/n$, show $s_n^2=\lambda(1-\lambda/n)$ and that $L_n(\varepsilon)\to1$ for every $\varepsilon<1/\sqrt\lambda$, so Definition~\ref{def:lind} fails. Compute $L_n(\tfrac12)$ exactly at $\lambda=3$ for $n=10,100,10^4$; you should get $0$, $0.970$, $1.000$, and the first should be exactly $0$ --- say why.
+\end{exercise}
+
+\begin{exercise}[\ty{C}]
+Take $X_{n,i}=\pm1$ for $i\le n$ and one extra summand $X_{n,n+1}=\pm\sqrt n$, all independent and symmetric. Show $s_n^2=2n$, that $L_n(\varepsilon)\ge\tfrac12$ for $\varepsilon<1/\sqrt2$, and that the limiting characteristic function of $s_n^{-1}\sum_iX_{n,i}$ is $e^{-t^2/4}\cos(t/\sqrt2)$. Exhibit a $t$ at which it vanishes and conclude the limit is not Gaussian. \emph{Why does one zero settle it?}
+\end{exercise}
+
+\begin{exercise}[\ty{C}]
+The transform also differentiates in the \emph{covariance}. Let $f$ be smooth with $\hat f\in L^1$, where $\hat f(t)=\int f(x)e^{-i\ip{t}{x}}dx$ and $f(x)=(2\pi)^{-n}\int\hat f(t)e^{i\ip{t}{x}}dt$. For a differentiable path $\Sigma(s)$ of covariance matrices and $X_s\sim\Nor(0,\Sigma(s))$, show
+\[
+\frac{d}{ds}\,\E\big[f(X_s)\big]=\frac12\sum_{i,j}\dot\Sigma_{ij}(s)\,\E\big[\partial_i\partial_jf(X_s)\big],
+\]
+and integrate along $\Sigma(s)=(1-s)\Sigma^0+s\Sigma^1$.
+
+\emph{This is the exact, continuous form of the swap in Theorem~\ref{thm:clt}: interpolate between two Gaussians and the cost is a second derivative. It gives Slepian's comparison inequality in one line when $\Sigma^1-\Sigma^0$ has non-negative off-diagonal entries and $\partial_i\partial_jf\ge0$ for $i\ne j$.}
+\end{exercise}
+
+\begin{exercise}[\ty{C}]
+Theorem~\ref{thm:be} gives rate $n^{-1/2}$. Show that for $X_i=\pm1$ it cannot be improved. \emph{For $n$ even, $\Prb(S_n=0)=\binom{n}{n/2}2^{-n}$, which Stirling puts at $\sim\sqrt{2/\pi n}$; now compare $\Prb(S_n\le z)$ with $\Phi(z)$ near $z=0$.} Explain in one sentence why lattice summands were the slowest row of the table in \S1.5.
+\end{exercise}
+
+\section{Stein's method}
+
+Theorem~\ref{thm:clt} describes the Gaussian as a limit. There is another way to pin it down.
+
+\begin{question}
+\textbf{Q.} Is there an identity satisfied by the standard Gaussian and by no other law?\\[0.25em]
+If so, then showing that a law is approximately Gaussian becomes showing that it approximately satisfies that identity.
+\end{question}
+
+\subsection{The characterization}
+
+\begin{theorem}[Stein's lemma]\label{thm:stein}
+A random variable $W$ is standard Gaussian if and only if
+\[
+\E\big[Wf(W)\big]=\E\big[f'(W)\big]
+\]
+for every bounded absolutely continuous $f$ with bounded derivative.
+\end{theorem}
+
+\begin{proof}[Proof of the forward direction]
+Let $\phi(x)=(2\pi)^{-1/2}e^{-x^2/2}$, so that $\phi'(x)=-x\phi(x)$. Then
+\[
+\E[f'(g)]=\int f'\phi=-\int f\phi'=\int xf(x)\phi(x)\,dx=\E[gf(g)] .
+\]
+\end{proof}
+
+The converse is proved in \S2.2.
+
+\begin{remark}[We have used this already]
+Take $f(x)=e^{itx}$. Stein's identity becomes $\E[We^{itW}]=it\,\E[e^{itW}]$, that is $\varphi'(t)=-t\varphi(t)$, which is the differential equation solved in Lemma 1.6. The first computation of the course was Stein's lemma with an exponential test function.
+
+One can run a proof of the central limit theorem this way, splitting off one summand and Taylor-expanding to reach $\varphi_{S_n}'\approx-t\varphi_{S_n}$; that route is Homework 3. Exponential test functions give neither a rate in a probability metric nor any tolerance for dependence, which is what the rest of this lecture supplies.
+\end{remark}
+
+\subsection{Stein's equation}
+
+Fix a test function $h$ and look for $f$ solving
+\begin{equation}\label{eq:stein}
+f'(w)-wf(w)\;=\;h(w)-\E h(g).
+\end{equation}
+
+\begin{lemma}\label{lem:steinsol}
+Equation~\eqref{eq:stein} is solved by $\displaystyle f_h(w)=e^{w^2/2}\int_{-\infty}^{w}\big[h(x)-\E h(g)\big]e^{-x^2/2}\,dx$.
+\end{lemma}
+
+\begin{proof}
+Differentiate: $f_h'(w)=wf_h(w)+\big[h(w)-\E h(g)\big]$.
+\end{proof}
+
+\begin{imported}
+\textbf{Stated without proof.} If $h$ is bounded then $f_h$ is bounded and absolutely continuous with $\|f_h\|_\infty\le\sqrt{2\pi}\,\|h-\E h(g)\|_\infty$ and $\|f_h'\|_\infty\le 4\|h-\E h(g)\|_\infty$; if $h$ is moreover Lipschitz then $\|f_h''\|_\infty\le 2\|h'\|_\infty$. These bounds are the technical core of the method.
+\end{imported}
+
+Evaluating \eqref{eq:stein} at $W$ and taking expectations turns a distance between two laws into a single expectation:
+\begin{equation}\label{eq:master}
+\E h(W)-\E h(g)\;=\;\E\big[f_h'(W)-Wf_h(W)\big].
+\end{equation}
+
+This also settles the converse in Theorem~\ref{thm:stein}. If $W$ satisfies the identity, then for every bounded Lipschitz $h$ the right side of \eqref{eq:master} vanishes, since $f_h$ is an admissible test function; so $\E h(W)=\E h(g)$ for all such $h$, and hence $W\dto g$.
+
+\subsection{The central limit theorem, with a rate}
+
+\begin{theorem}\label{thm:be}
+Let $X_1,\dots,X_n$ be i.i.d.\ with mean $0$, variance $1$ and $\E|X_1|^3<\infty$. Then for every bounded Lipschitz $h$,
+\[
+\big|\E h(S_n)-\E h(g)\big|\;\le\;\frac{C\,\|h'\|_\infty\,\E|X_1|^3}{\sqrt n}
+\]
+for an absolute constant $C$.
+\end{theorem}
+
+\begin{proof}[Sketch]
+Write $W=S_n$ and $W^{(i)}=W-X_i/\sqrt n$, which is independent of $X_i$. Abbreviate $f=f_h$. Then
+\[
+\E[Wf(W)]=\frac{1}{\sqrt n}\sum_{i}\E\big[X_if(W)\big],
+\]
+and expanding $f(W)$ about $W^{(i)}$ gives, for each $i$,
+\[
+\E\big[X_if(W)\big]=\underbrace{\E[X_i]\,\E\big[f(W^{(i)})\big]}_{=0}
++\frac{1}{\sqrt n}\underbrace{\E[X_i^2]}_{=1}\E\big[f'(W^{(i)})\big]+\text{remainder},
+\]
+with the remainder bounded by $\|f''\|_\infty\E|X_i|^3/n$. Summing over $i$ turns the middle terms into $\E f'(W)$ up to an error of the same order, so
+\[
+\big|\E\big[f'(W)-Wf(W)\big]\big|\;\le\;\frac{C'\|f''\|_\infty\,\E|X_1|^3}{\sqrt n},
+\]
+and \eqref{eq:master} with the bound $\|f_h''\|_\infty\le2\|h'\|_\infty$ finishes the proof.
+\end{proof}
+
+\begin{remark}
+Theorem~\ref{thm:clt} produced the rate $n^{-1/2}$ as a by-product of its error term; here the rate is what the method computes. Taking $h$ to approximate $\mathbf 1_{(-\infty,z]}$, and controlling the approximation, upgrades Theorem~\ref{thm:be} to the Berry--Esseen theorem: $\sup_z|\Prb(S_n\le z)-\Prb(g\le z)|\le C\,\E|X_1|^3/\sqrt n$. The extra work is in the indicator, not in the method.
+\end{remark}
+
+\subsection{The same argument for Poisson}
+
+Nothing above was about Gaussians in particular. It was about having a characterizing identity.
+
+\begin{theorem}[Chen's lemma]
+A random variable $N$ taking values in $\{0,1,2,\dots\}$ is $\Poi(\lambda)$ if and only if
+\[
+\E\big[\lambda f(N+1)-Nf(N)\big]=0
+\]
+for every bounded $f$.
+\end{theorem}
+
+\begin{proof}[Proof of the forward direction]
+$\displaystyle \E[Nf(N)]=\sum_{k\ge1}k\,e^{-\lambda}\frac{\lambda^k}{k!}f(k)=\lambda\sum_{j\ge0}e^{-\lambda}\frac{\lambda^j}{j!}f(j+1)=\lambda\,\E[f(N+1)].$
+\end{proof}
+
+Running \S2.2 and \S2.3 with this identity in place of Stein's, and total variation in place of a smooth metric, gives:
+
+\begin{theorem}[Le Cam]\label{thm:lecam}
+Let $B_1,\dots,B_n$ be independent with $B_i\sim\Ber(p_i)$, and let $\lambda=\sum_ip_i$. Then
+\[
+\TV\Big(\sum_iB_i,\ \Poi(\lambda)\Big)\;\le\;\sum_i p_i^2 .
+\]
+\end{theorem}
+
+\begin{corollary}[Poisson limit theorem]\label{thm:poisson}
+Let $B_{n,i}\sim\Ber(p_{n,i})$, $i\le k_n$, be independent, with $\max_i p_{n,i}\to0$ and $\sum_i p_{n,i}\to\lambda$. Then $\sum_i B_{n,i}\Rightarrow\Poi(\lambda)$.
+\end{corollary}
+
+\begin{proof}
+$\sum_ip_{n,i}^2\le(\max_ip_{n,i})\sum_ip_{n,i}\to0$, and $\Poi(\lambda_n)\Rightarrow\Poi(\lambda)$ when $\lambda_n\to\lambda$.
+\end{proof}
+
+This is the Poisson side of the Lindeberg boundary. At $p_i=\lambda/n$ the rate is $\lambda^2/n$; with $\lambda=3$ and $n=100$ the bound is $0.09$, against an actual discrepancy of about $0.002$ in $\Prb(\sum_iB_i=0)$.
+
+Lecture 3 met the Gaussian/Poisson boundary as a phenomenon. Here a single technique sits on both sides of it, and only the characterizing identity changes.
+
+\starsec{Where independence was spent}\label{sec:dependence}
+
+\emph{Not lectured. Exercises due at the start of Lecture 5.} The proof of Theorem~\ref{thm:be} used independence in exactly one place, to evaluate $\E[X_if(W^{(i)})]=\E[X_i]\E[f(W^{(i)})]$. Any other route to that expectation will do, and the cheapest is a coupling.
+
+\begin{definition}[Exchangeable pair]\label{def:exch}
+A pair $(W,W')$ is exchangeable if $(W,W')\dto(W',W)$. It is a \emph{Stein pair} if in addition $\E[W'-W\mid W]=-a W$ for some $a>0$.
+\end{definition}
+
+\begin{exercise}[\ty{A}]
+Let $(W,W')$ be exchangeable and $F$ antisymmetric, $F(x,y)=-F(y,x)$, with $\E|F(W,W')|<\infty$. Show $\E F(W,W')=0$. \emph{One line, and it is the whole mechanism; everything else is choosing $F$.}
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+Apply that to $F(x,y)=(y-x)(f(x)+f(y))$, expand $f(W')$ about $W$ to first order, and use Definition~\ref{def:exch} to obtain
+\[
+\E\big[f'(W)-Wf(W)\big]=\E\Big[f'(W)\Big(1-\tfrac{1}{2a}\E\big[(W'-W)^2\mid W\big]\Big)\Big]+\mathrm{err},\quad|\mathrm{err}|\le\frac{\|f''\|_\infty}{4a}\E|W'-W|^3 .
+\]
+\emph{A Gaussian approximation now asks two things: that $\frac{1}{2a}\E[(W'-W)^2\mid W]$ be close to $1$, and that $W'-W$ be small.}
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+\emph{The canonical pair.} With $W=S_n$, let $I$ be uniform on $\{1,\dots,n\}$ and $X_I'$ an independent copy of $X_I$; put $W'=W-(X_I-X_I')/\sqrt n$. Show $(W,W')$ is exchangeable with $\E[W'-W\mid X_1,\dots,X_n]=-W/n$, so $a=1/n$; then that $\E[(W'-W)^2\mid X_1,\dots,X_n]=n^{-2}\sum_i(X_i^2+1)$, whose distance from $1$ after dividing by $2a$ is at most $\tfrac12\sqrt{\Var(X_1^2)/n}$. Conclude Theorem~\ref{thm:be} again. \emph{Independence was used twice; neither use was the product formula.}
+\end{exercise}
+
+Now a sum to which no version of independence applies. Let $\pi$ be a uniformly random permutation of $\{1,\dots,n\}$, let $I_i=\mathbf 1\{\pi(i)=i\}$, and let $W=\sum_iI_i$ count fixed points.
+
+\begin{exercise}[\ty{A}]
+Show $\E W=\Var W=1$ for $n\ge2$, and that $\Prb(I_1=I_2=1)\ne\Prb(I_1=1)\Prb(I_2=1)$. A student applies Theorem~\ref{thm:lecam} with $p_i=1/n$ and $\lambda=1$ to conclude $\TV(W,\Poi(1))\le1/n$. Name the hypothesis that fails, and say why the conclusion happening to be true does not rescue the argument.
+\end{exercise}
+
+\begin{imported}
+\textbf{Imported: Chen--Stein, coupling form.} Let $W=\sum_{i\le n}I_i$ with $I_i\sim\Ber(p_i)$, \emph{not necessarily independent}, and $\lambda=\sum_ip_i$. If for each $i$ one can build, on the same space as $W$, a variable $V_i$ distributed as $W-1$ conditioned on $I_i=1$, then $\TV(W,\Poi(\lambda))\le\min(1,\lambda^{-1})\sum_ip_i\E|W-V_i|$.
+\end{imported}
+
+\begin{exercise}[\ty{C}]
+Build the coupling. Fix $i$; if $\pi(i)=i$ put $\sigma=\pi$, otherwise $\sigma=\pi\circ(i\;\;\pi^{-1}(i))$. Show $\sigma(i)=i$ always, that $\sigma$ is uniform among permutations fixing $i$, and that $W(\sigma)-W(\pi)\in\{1,2\}$ when $\pi(i)\ne i$ --- the value $2$ exactly when $\pi$ has a $2$-cycle at $i$. Deduce $\E|W-V_i|\le2/n$, hence $\TV(W,\Poi(1))\le2/n$.
+
+Inclusion--exclusion gives $\Prb(W=0)=\sum_{k\le n}(-1)^k/k!$, whose distance from $e^{-1}$ is $7.1\times10^{-3}$, $1.8\times10^{-4}$ and $2.3\times10^{-8}$ at $n=4,6,10$. \emph{By how many orders of magnitude is the method wrong at $n=10$, and what does it have that inclusion--exclusion does not?}
+\end{exercise}
+
+\vspace{1em}
+\hrule height 0.5pt
+\vspace{0.4em}
+{\footnotesize\color{grey} Homework 3 gives the characteristic-function proof of the central limit theorem, the same computation for Poisson, and Lindeberg's condition on both sides of the boundary; Homework 4 develops Stein's equation and the exchangeable-pair bound.}
+
+\end{document}

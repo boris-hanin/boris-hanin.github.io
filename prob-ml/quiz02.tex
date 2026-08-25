@@ -1,0 +1,76 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in,top=0.85in,bottom=0.8in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\definecolor{acc}{HTML}{1B6B58}
+\definecolor{grey}{HTML}{5C6763}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Nor}{\mathcal{N}}
+\newcommand{\Poi}{\mathrm{Poisson}}
+\newcommand{\Ber}{\mathrm{Bernoulli}}
+\newcommand{\TV}{d_{\mathrm{TV}}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
+
+\begin{document}
+
+{\footnotesize\color{acc}\textsc{ORF 526 \quad$\cdot$\quad Quiz 2 \quad$\cdot$\quad Wednesday, September 16}}
+
+\vspace{0.4em}
+{\large\bfseries Quiz 2}\hfill {\color{grey}15 minutes \quad$\cdot$\quad closed book \quad$\cdot$\quad no calculators}
+
+\vspace{0.5em}
+\hrule height 0.5pt
+\vspace{0.3em}
+
+{\footnotesize\color{grey} Three questions, five minutes each. Drawn from the core problems of Homeworks 3 and 4. Answers should be short; a correct one-line argument is worth more than a page of work.}
+
+\vspace{1.2em}
+
+\textbf{1.} \ \textsc{\small compute} \quad Let $B\sim\Ber(p)$, and let $B_{n,1},\dots,B_{n,n}$ be \emph{independent} $\Ber(\lambda/n)$ with $N_n=\sum_{i\le n}B_{n,i}$.
+
+\begin{enumerate}[label=(\alph*),leftmargin=1.8em,itemsep=0.3em,topsep=0.3em]
+\item Write down $\varphi_B(t)=\E[e^{itB}]$.
+\item Write down $\varphi_{N_n}(t)$, compute $\lim_{n\to\infty}\varphi_{N_n}(t)$, and name the limiting law.
+\item Which property of the $B_{n,i}$ did you use to get from (a) to (b)?
+\end{enumerate}
+
+\vspace{1.5em}
+
+\textbf{2.} \ \textsc{\small which hypothesis fails} \quad Let $\pi$ be a uniformly random permutation of $\{1,\dots,n\}$, let $I_i=\mathbf 1\{\pi(i)=i\}$, and let $W=\sum_{i\le n}I_i$ be the number of fixed points.
+
+\begin{enumerate}[label=(\alph*),leftmargin=1.8em,itemsep=0.3em,topsep=0.3em]
+\item Compute $\E W$.
+\item Le Cam's theorem states that for \emph{independent} $B_i\sim\Ber(p_i)$ with $\lambda=\sum_ip_i$,
+\[
+\TV\Big(\sum_iB_i,\ \Poi(\lambda)\Big)\;\le\;\sum_ip_i^2 .
+\]
+A student applies it with $p_i=1/n$ and $\lambda=1$ and concludes $\TV(W,\Poi(1))\le 1/n$. Name precisely the hypothesis that fails.
+\item That conclusion is in fact true. Say in one sentence why this does not rescue the argument.
+\end{enumerate}
+
+\vspace{1.5em}
+
+\textbf{3.} \ \textsc{\small supply the missing step} \quad Let $X_1,\dots,X_n$ be i.i.d.\ with mean $0$ and variance $1$, and set $W=n^{-1/2}\sum_{i\le n}X_i$. Let $I$ be uniform on $\{1,\dots,n\}$ and $X_I'$ an independent copy of $X_I$, both independent of everything else, and put
+\[
+W'\;=\;W-\frac{X_I-X_I'}{\sqrt n}\,.
+\]
+
+\begin{enumerate}[label=(\alph*),leftmargin=1.8em,itemsep=0.3em,topsep=0.3em]
+\item Compute $\E\big[W'-W\mid X_1,\dots,X_n\big]$.
+\item Deduce the value of $a$ in the Stein-pair relation $\E[W'-W\mid W]=-aW$.
+\item In one sentence: why is a pair like this useful when the summands are \emph{not} independent?
+\end{enumerate}
+
+\vspace{1.6em}
+\hrule height 0.4pt
+\vspace{0.3em}
+{\footnotesize\color{grey} Name:\hspace{16em}\hrulefill}
+
+\end{document}

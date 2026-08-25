@@ -1,0 +1,333 @@
+\documentclass[11pt]{article}
+\input{preamble}
+\providecommand{\Tr}{\operatorname{tr}}
+\newcommand{\C}{\mathbb{C}}
+\begin{document}
+
+\begin{center}
+{\footnotesize\color{acc}\textsc{ORF 526 \quad$\cdot$\quad Probability for Modern Machine Learning \quad$\cdot$\quad Fall 2026}}\\[0.5em]
+{\LARGE\bfseries Lectures 5 and 6: Wick's Theorem and the Semicircle Law}\\[0.35em]
+{\color{grey} Pair partitions, and two proofs of the same theorem}
+\end{center}
+\vspace{0.4em}
+\hrule height 0.5pt
+\vspace{0.6em}
+
+\begin{roadmap}
+{\color{acc}\textsc{outline}}\ \ Wick's theorem\rmto moments of the spectrum\rmto non-crossing pair partitions\rmto the Catalan recursion\rmto the semicircle law\\[0.35em]
+\phantom{{\color{acc}\textsc{outline}}}\ \ Schur complement $+$ Wick\rmto $m^2+zm+1=0$\rmto the semicircle law again, with its density\\[0.35em]
+{\color{acc}\textsc{how to read}}\ \ Sections marked \textcolor{acc}{$\ast$} are not lectured. They are complete, they are examinable, and they carry most of the exercises. Exercises are typed \textsc{a}, \textsc{b} and \textsc{c}; each week's quiz has one of each.
+\end{roadmap}
+
+\section{Wick's theorem}
+
+In this lecture we compute every moment of a Gaussian vector.
+
+\begin{definition}[Pair partition]\label{def:pp}
+A \emph{pair partition} of $\{1,\dots,2q\}$ is a partition into $q$ blocks of size two.
+\end{definition}
+
+\begin{theorem}[Wick]\label{thm:wick}
+Let $X\sim\Nor(0,\Sigma)$ on $\R^n$ and $a_1,\dots,a_m\in\{1,\dots,n\}$. If $m$ is odd then $\E[X_{a_1}\cdots X_{a_m}]=0$. If $m=2q$ then
+\[
+\boxed{\ \E\big[X_{a_1}X_{a_2}\cdots X_{a_{2q}}\big]\;=\;\sum_{\text{pair partitions }P\text{ of }\{1,\dots,2q\}}\ \ \prod_{\{r,s\}\in P}\Sigma_{a_ra_s}\ }
+\]
+\end{theorem}
+
+\begin{proof}
+By Corollary 1.5 of Lectures 1--2 every linear functional of $X$ is a one-dimensional Gaussian, so $X$ has moments of every order, $\varphi_X$ is infinitely differentiable, and its derivatives may be taken inside the expectation. Since $\partial_{t_j}e^{i\ip{t}{x}}=ix_je^{i\ip{t}{x}}$, multiplication by $X_j$ acts on the transform as $-i\,\partial_{t_j}$:
+\begin{equation}\label{eq:momderiv}
+\E\big[X_{a_1}\cdots X_{a_m}\big]\;=\;(-i)^m\,\partial_{t_{a_1}}\cdots\partial_{t_{a_m}}\varphi_X(t)\big|_{t=0}.
+\end{equation}
+By Definition 1.2, $\varphi_X(t)=\exp\big(-\tfrac12t\tr\Sigma t\big)$ --- for every $\Sigma\succeq0$, degenerate cases included --- and differentiating it once,
+\begin{equation}\label{eq:phiode}
+\partial_{t_i}\varphi_X(t)\;=\;-\sum_j\Sigma_{ij}\,t_j\,\varphi_X(t).
+\end{equation}
+Apply $\partial_{t_{a_2}}\cdots\partial_{t_{a_m}}$ to \eqref{eq:phiode} taken at $i=a_1$. The factor $t_j$ is linear, so Leibniz leaves terms of two kinds: those in which every derivative falls on $\varphi_X$, which still carry a factor $t_j$; and, for each $s\in\{2,\dots,m\}$, the one in which $\partial_{t_{a_s}}$ falls on $t_j$ and produces $\delta_{ja_s}$. Setting $t=0$ kills the first kind, leaving
+\[
+\partial_{t_{a_1}}\cdots\partial_{t_{a_m}}\varphi_X\big|_{0}\;=\;-\sum_{s=2}^{m}\Sigma_{a_1a_s}\ \partial_{\{t_{a_r}:\,r\ne1,s\}}\varphi_X\big|_{0}.
+\]
+Rewrite both sides with \eqref{eq:momderiv} and multiply through by $(-i)^m$; since $(-i)^2=-1$ the two minus signs cancel and
+\begin{equation}\label{eq:wickrec}
+\E\big[X_{a_1}\cdots X_{a_m}\big]\;=\;\sum_{s=2}^{m}\Sigma_{a_1a_s}\ \E\Big[\prod_{r\ne1,s}X_{a_r}\Big] :
+\end{equation}
+pair the first factor with each of the others in turn, and recurse. Induct on $m$. Both sides vanish for $m=1$, and for $m=2$ the claim is the definition of $\Sigma$. For $m>2$, \eqref{eq:wickrec} drops the number of factors by two, so parity is preserved: an odd product reduces to $\E[X_a]=0$, and an even one to a sum over pair partitions of the remaining $2q-2$ indices, each prefixed by $\Sigma_{a_1a_s}$ recording the block containing $1$. Summing over $s$ enumerates every pair partition of $\{1,\dots,2q\}$ once.
+\end{proof}
+
+\begin{remark}
+Reading \eqref{eq:wickrec} with $F(X)=X_{a_2}\cdots X_{a_m}$ and noting that $\partial_jF$ deletes the factor $X_j$ gives
+\[
+\E\big[X_i\,F(X)\big]\;=\;\sum_j\Sigma_{ij}\,\E\big[\partial_jF(X)\big],
+\]
+\emph{Gaussian integration by parts}, which for $n=1$ and $\Sigma=1$ is $\E[gF(g)]=\E[F'(g)]$ --- Lemma 1.6 of Lectures 1--2, and Stein's lemma in Lecture 4.
+\end{remark}
+
+\begin{corollary}\label{cor:count}
+There are $(2q-1)!!=(2q-1)(2q-3)\cdots3\cdot1$ pair partitions of $2q$ points, and $\E[g^{2q}]=(2q-1)!!$ for $g\sim\Nor(0,1)$.
+\end{corollary}
+
+\begin{example}\label{ex:four}
+For $q=2$,
+\[
+\E\big[X_1X_2X_3X_4\big]=\Sigma_{12}\Sigma_{34}+\Sigma_{13}\Sigma_{24}+\Sigma_{14}\Sigma_{23},
+\]
+one term for each of the three pair partitions of four points.
+\end{example}
+
+\emph{The exercises below and in \S2.9 are due at the start of Lecture 7.}
+
+\begin{exercise}[\ty{A}]
+Prove Corollary~\ref{cor:count} --- the first point has $2q-1$ choices of partner; recurse --- and check the counts for $2q=2,4,6,8$. Then write down $\E[g^{20}]$.
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+Let $X\sim\Nor(0,\Sigma)$ on $\R^n$ and $A$ symmetric. Using Theorem~\ref{thm:wick} on $\E[X_iX_jX_kX_l]$, show $\E[X\tr AX]=\Tr(A\Sigma)$ and $\Var(X\tr AX)=2\Tr((A\Sigma)^2)$; deduce $\Var\|X\|^2=2\Tr\Sigma^2$. \emph{This is the estimate \S2.6 needs for $a\tr Ra$, with $A=R$.}
+\end{exercise}
+
+\subsection{The general formula}
+
+Theorem~\ref{thm:wick} is the Gaussian instance of a statement holding for any random vector with moments.
+
+\begin{definition}[Joint cumulants]\label{def:cum}
+For $Y_1,\dots,Y_m$ with all moments finite,
+\[
+\kappa\big(Y_1,\dots,Y_m\big)\;=\;\frac{\partial^m}{\partial t_1\cdots\partial t_m}\,\log\E\big[e^{t_1Y_1+\cdots+t_mY_m}\big]\bigg|_{t=0}.
+\]
+Moments are derivatives of the transform; cumulants are derivatives of its logarithm.
+\end{definition}
+
+\begin{imported}
+\textbf{Stated without proof: the moment--cumulant formula.} For any $Y_1,\dots,Y_m$ with moments,
+\[
+\E\big[Y_1Y_2\cdots Y_m\big]\;=\;\sum_{\pi\in\mathcal{P}(m)}\ \prod_{B\in\pi}\ \kappa\big(Y_i:i\in B\big),
+\]
+where $\mathcal{P}(m)$ is the set of \emph{all} partitions of $\{1,\dots,m\}$ into non-empty blocks, of which there are $1,2,5,15,52,\dots$
+\end{imported}
+
+For $m=2$ this is $\E[Y_1Y_2]=\E Y_1\E Y_2+\Cov(Y_1,Y_2)$, the two partitions of $\{1,2\}$.
+
+By Definition 1.2 with $t$ in place of $it$, $\log\E[e^{\ip{t}{X}}]=\tfrac12t\tr\Sigma t$ is exactly quadratic, so for a centred Gaussian vector
+\[
+\kappa(X_a)=0,\qquad \kappa(X_a,X_b)=\Sigma_{ab},\qquad \kappa(X_{a_1},\dots,X_{a_k})=0\ \ (k\ge3).
+\]
+A partition contributes nothing unless all of its blocks have size two, and those are the pair partitions. Of the fifteen partitions of a four-element set, three survive.
+
+\begin{remark}\label{rem:cumulant}
+For a non-Gaussian vector the larger blocks do not vanish, $\log Z$ is no longer a polynomial, and the recursion \eqref{eq:wickrec} acquires a tail that never terminates. Cumulants then measure the distance from Gaussian, and unlike moments they are additive over independent sums. Lecture 7 takes them as its subject.
+\end{remark}
+
+\section{The semicircle law, twice}
+
+\begin{question}
+\textbf{Q.} Where are the eigenvalues of a large random symmetric matrix?\\[0.25em]
+Theorem~\ref{thm:wick} answers this without any linear algebra, because a trace of a power is a moment of the spectrum.
+\end{question}
+
+\subsection{Wigner matrices, and the trace as a moment}
+
+\begin{definition}[Gaussian Wigner matrix]\label{def:wigner}
+$M$ is symmetric $N\times N$ with $\{M_{ij}\}_{i\le j}$ independent centred Gaussians, $\E M_{ij}^2=1/N$ for $i<j$ and $\E M_{ii}^2=2/N$. Equivalently, for all indices,
+\[
+\E\big[M_{ij}M_{kl}\big]=\tfrac1N\big(\delta_{ik}\delta_{jl}+\delta_{il}\delta_{jk}\big).
+\]
+\end{definition}
+
+The diagonal convention is chosen to make that formula exact; the $N$ diagonal entries are a vanishing fraction of the $N^2$ and do not affect anything below.
+
+Write $\lambda_1,\dots,\lambda_N$ for the eigenvalues and $\hat\rho=\frac1N\sum_i\delta_{\lambda_i}$ for their empirical distribution. Then
+\begin{equation}\label{eq:trmom}
+\frac1N\Tr M^k\;=\;\frac1N\sum_i\lambda_i^k\;=\;\int x^k\,d\hat\rho(x),
+\end{equation}
+so Theorem~\ref{thm:wick} applies to spectra.
+
+\begin{imported}
+\textbf{Imported: the method of moments.} A probability law on $\R$ with bounded support is determined by its moments, and if $\int x^kd\mu_N\to\int x^kd\mu$ for every $k$ with $\mu$ compactly supported, then $\mu_N\Rightarrow\mu$. We use this and do not prove it.
+\end{imported}
+
+\subsection{The fourth moment}
+
+By \eqref{eq:trmom}, $\frac1N\E\Tr M^2=\frac1N\sum_{i,j}\E M_{ij}^2=1+\frac1N$ (Homework 5) --- the $\frac1N$ being the $N$ diagonal entries, which are a vanishing fraction of the $N^2$ and will be ignored from here on. The next moment is where something happens, and it is where the following distinction starts to matter.
+
+\begin{definition}[Crossing]\label{def:cross}
+Draw the $2q$ points of a pair partition on a line and join each block by an arc above it. Two blocks $\{a,b\}$ and $\{c,d\}$ \emph{cross} if $a<c<b<d$. A pair partition with no crossing blocks is \emph{non-crossing}; there are $1,2,5,14,\dots$ of them on $2,4,6,8$ points, against $1,3,15,105$ pair partitions in total.
+\end{definition}
+
+\begin{proposition}\label{prop:m4}
+$\displaystyle \frac1N\E\Tr M^4=2+O(1/N)$.
+\end{proposition}
+
+\begin{proof}
+Expand and apply Theorem~\ref{thm:wick} to each term:
+\[
+\frac1N\E\Tr M^4=\frac1N\sum_{i,j,k,l}\E\big[M_{ij}M_{jk}M_{kl}M_{li}\big],
+\]
+three pair partitions per term. A pair partition forces index identifications through Definition~\ref{def:wigner}; if $f$ indices survive, it contributes $\frac1N\cdot N^{f}\cdot\frac1{N^{2}}=N^{f-3}$.
+
+\emph{First with second, third with fourth.} $\E[M_{ij}M_{jk}]$ is $\frac1N\delta_{ik}$ up to lower order, and likewise $\E[M_{kl}M_{li}]=\frac1N\delta_{ki}+\cdots$. The single constraint is $i=k$, leaving $f=3$ and a contribution of $1$.
+
+\emph{First with fourth, second with third.} The same computation gives the constraint $j=l$, so again $f=3$ and a contribution of $1$.
+
+\emph{First with third, second with fourth} --- the crossing one. Now
+\[
+\E[M_{ij}M_{kl}]\,\E[M_{jk}M_{li}]=\tfrac1{N^2}\big(\delta_{ik}\delta_{jl}+\delta_{il}\delta_{jk}\big)\big(\delta_{jl}\delta_{ki}+\delta_{ji}\delta_{kl}\big),
+\]
+whose largest term is $\delta_{ik}\delta_{jl}$: two constraints rather than one, so $f=2$ and the contribution is $N^{-1}$. Every remaining term forces all four indices equal and contributes $N^{-2}$.
+\end{proof}
+
+\begin{remark}
+Setting $i=k$ and $j=l$ makes $M_{jk}=M_{ji}=M_{ij}$, $M_{kl}=M_{ij}$ and $M_{li}=M_{ij}$: all four factors become the same entry of $M$. That is what a crossing costs.
+\end{remark}
+
+\begin{remark}[Real versus complex]
+The two $\delta$'s in Definition~\ref{def:wigner} come from $M_{ij}=M_{ji}$. A complex Hermitian matrix has $\E[H_{ij}H_{kl}]=\frac1N\delta_{il}\delta_{jk}$, one term instead of two, and then the crossing block leaves $f=1$ and costs $N^{-2}$. The figure usually quoted is the complex one; Homework 5 does the count.
+\end{remark}
+
+\subsection{The proof, in steps}
+
+Proposition~\ref{prop:m4} is the whole mechanism; what remains is bookkeeping and one identification. The argument runs in six steps, of which this lecture does the first two and Homework 5 does the rest.
+
+\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=2.1em,itemsep=0.25em]
+\item \textbf{Trace to moment.} $\frac1N\Tr M^{2k}=\int x^{2k}\,d\hat\rho$, which is \eqref{eq:trmom}.
+\item \textbf{Wick.} Expanding the trace and applying Theorem~\ref{thm:wick} turns $\frac1N\E\Tr M^{2k}$ into a sum over pair partitions of the $2k$ factors.
+\item \textbf{Count indices, by reading the trace as a walk.} An index tuple $(i_1,\dots,i_{2k})$ is a closed walk of length $2k$, its $r$th step traversing the edge $\{i_r,i_{r+1}\}$. Since $\E[M_{ab}M_{cd}]\ne0$ only when $\{a,b\}=\{c,d\}$, a surviving pair partition matches steps traversing the \emph{same} edge, so the walk uses at most $k$ edges, each twice. Its edge graph is connected, so $v\le e+1\le k+1$, and a walk with $v$ free indices contributes $N^{v-k-1}$: \textbf{only walks along a tree with $k$ edges survive.} The counting is nothing but \emph{a tree is the sparsest connected graph}. \emph{(Homework 5.)}
+\item \textbf{Limit in expectation.} Hence $\frac1N\E\Tr M^{2k}\to C_k$, the number of such tree walks up to relabelling --- equivalently the number of non-crossing pair partitions of $2k$ points. Odd moments vanish.
+\item \textbf{Identify $C_k$.} This is the step to do carefully, and it is not done by recognizing $1,2,5,14$. Condition on the block containing the point $1$. If that block is $\{1,b\}$ then the points strictly between $1$ and $b$ must pair among themselves, since a block leaving that interval would cross $\{1,b\}$; so $b$ is even, say $b=2j+2$, and the remaining points split into an interval of $2j$ and an interval of $2(k-1-j)$, each to be filled non-crossingly and independently. Therefore
+\[
+C_k=\sum_{j=0}^{k-1}C_j\,C_{k-1-j},\qquad C_0=1,
+\]
+so the generating function $C(w)=\sum_{k\ge0}C_kw^k$ satisfies $C=1+wC^2$, giving $C(w)=\frac{1-\sqrt{1-4w}}{2w}$ and $C_k=\frac{1}{k+1}\binom{2k}{k}$: the Catalan numbers. \emph{(Homework 5 also counts the tree walks of step 3 directly, by encoding each as a Dyck path.)} Separately, the substitution $x=2\sin\theta$ evaluates
+\[
+\int_{-2}^{2}x^{2k}\rho_{sc}(x)\,dx=\frac{1}{k+1}\binom{2k}{k},
+\]
+so the two sides agree. \emph{(Homework 5 does both computations.)}
+\item \textbf{From expectation to probability, and from moments to the law.} $\Var\big(\frac1N\Tr M^{2k}\big)=O(N^{-2})$, so the empirical moments converge in probability and not merely on average; and the imported moment method converts convergence of all moments into weak convergence.
+\end{enumerate}
+
+\begin{theorem}[Wigner]\label{thm:semicircle}
+$\hat\rho\Rightarrow\rho_{sc}$ in probability, where $\displaystyle\rho_{sc}(x)=\frac{1}{2\pi}\sqrt{4-x^2}$ on $[-2,2]$.
+\end{theorem}
+
+\begin{remark}
+Gluing the edges of a $2k$-gon according to $P$ builds a surface whose faces are the surviving indices, and Euler's formula makes that count maximal exactly for planar gluings. This is the usual proof of step 3. We will not use it.
+\end{remark}
+
+\subsection{What that proof cannot do}
+
+\begin{enumerate}[label=(\roman*),leftmargin=1.9em,itemsep=0.1em]
+\item It never produced a \textbf{density}. It produced a sequence of numbers that we recognized; perturb the model and there is nothing to recognize.
+\item It requires \textbf{all moments finite}.
+\item It gives \textbf{no local information} --- nothing about one eigenvalue, a gap, or the edge.
+\item It does not survive \textbf{deformation}: unequal variances, or a rank-one spike, and the combinatorics does not adapt.
+\end{enumerate}
+
+All four are repaired below.
+
+\subsection{The Stieltjes transform}
+
+\begin{definition}\label{def:stieltjes}
+For a probability law $\mu$ on $\R$ and $z\in\C$ with $\Im z>0$,
+\[
+m_\mu(z)=\int\frac{d\mu(\lambda)}{\lambda-z}.
+\]
+\end{definition}
+
+It is analytic on the upper half plane, satisfies $|m_\mu(z)|\le1/\Im z$, and $m_\mu(z)=-1/z+O(|z|^{-2})$ as $z\to\infty$ --- the last of which will pin down a branch.
+
+\begin{imported}
+\textbf{Stieltjes inversion.} If $\mu$ has a continuous density $\rho$ near $\lambda$ then $\rho(\lambda)=\frac1\pi\lim_{\varepsilon\downarrow0}\Im m_\mu(\lambda+i\varepsilon)$. Homework 6 proves it and checks it on two examples.
+\end{imported}
+
+The moment method has no analogue of this step: it returns the density itself rather than a sequence of numbers to be recognized. The bridge to matrices is immediate from \eqref{eq:trmom}:
+\begin{equation}\label{eq:bridge}
+m_{\hat\rho}(z)=\frac1N\Tr\big(M-z\big)^{-1}.
+\end{equation}
+
+\begin{remark}
+The right side of \eqref{eq:bridge} was computed numerically in Problem Set 1, where it was the effective degrees of freedom of ridge regression. Same object, week one.
+\end{remark}
+
+\subsection{The self-consistent equation}
+
+Write $m_N(z)=\frac1N\E\Tr(M-z)^{-1}$. Let $M^{(1)}$ be $M$ with its first row and column deleted, and let $a\in\R^{N-1}$ be the first column of $M$ with its first entry deleted.
+
+\begin{lemma}[Schur complement]\label{lem:schur}
+$\displaystyle \big((M-z)^{-1}\big)_{11}=\frac{1}{M_{11}-z-a\tr\big(M^{(1)}-z\big)^{-1}a}$.
+\end{lemma}
+
+This is the block-inversion identity behind Corollary 2.5 of Lectures 1--2.
+
+Now estimate the three pieces. Put $R=(M^{(1)}-z)^{-1}$, which is a function of $M^{(1)}$ alone and therefore independent of $a$, and note $\E[a_ra_s]=\delta_{rs}/N$.
+
+\begin{enumerate}[label=(\alph*),leftmargin=1.9em,itemsep=0.15em]
+\item $M_{11}=O_{\Prb}(N^{-1/2})$, since $\Var M_{11}=2/N$.
+\item $\E\big[a\tr Ra\,\big|\,M^{(1)}\big]=\frac1N\Tr R$, and by Theorem~\ref{thm:wick} its conditional variance is $\frac{2}{N^2}\Tr(R^2)$. Since $\|R\|\le(\Im z)^{-1}$ we have $|\Tr(R^2)|\le N(\Im z)^{-2}$, so the variance is $O(1/N)$. This is the only place probability enters.
+\item $\frac1N\Tr R$ differs from $m_N(z)$ by $O(1/N)$, since deleting one row and column of an $N\times N$ matrix moves a normalized resolvent trace by that much.
+\end{enumerate}
+
+All diagonal entries of $(M-z)^{-1}$ have the same law, so $m_N(z)=\E\big[((M-z)^{-1})_{11}\big]$. Feeding (a)--(c) into Lemma~\ref{lem:schur} and passing to the limit,
+\begin{equation}\label{eq:sc}
+\boxed{\ m(z)=\frac{1}{-z-m(z)},\qquad\text{that is}\qquad m^2+zm+1=0.\ }
+\end{equation}
+
+\begin{imported}
+\textbf{Asserted.} That $\frac1N\Tr(M-z)^{-1}$ concentrates around its mean, so that the limit in \eqref{eq:sc} may be taken inside, is a concentration estimate we do not prove.
+\end{imported}
+
+Equation \eqref{eq:sc} is a fixed-point equation for the answer, derived without knowing the answer. The moment method had to be told what to recognize.
+
+\subsection{Solving, and the comparison}
+
+Both roots of \eqref{eq:sc} are $\frac{-z\pm\sqrt{z^2-4}}{2}$. As $z\to\infty$, $\sqrt{z^2-4}=z-2/z+O(|z|^{-3})$, so only the $+$ root satisfies $m\sim-1/z$:
+\[
+m(z)=\frac{-z+\sqrt{z^2-4}}{2}.
+\]
+For $\lambda\in(-2,2)$ we have $\sqrt{\lambda^2-4}=i\sqrt{4-\lambda^2}$, so $\Im m(\lambda+i0)=\tfrac12\sqrt{4-\lambda^2}$, and Stieltjes inversion returns $\rho_{sc}(\lambda)=\frac{1}{2\pi}\sqrt{4-\lambda^2}$. That is Theorem~\ref{thm:semicircle} again.
+
+\begin{remark}[The two proofs are the same equation]
+Expanding Definition~\ref{def:stieltjes} for large $|z|$ gives $m(z)=-\sum_{k\ge0}C_kz^{-(2k+1)}$, so with $w=z^{-2}$ we have $-zm(z)=C(w)$. Substituting into the Catalan relation $C=1+wC^2$ from step 5 returns $-zm=1+m^2$, which is \eqref{eq:sc}. \emph{The recursion that counts non-crossing pair partitions and the self-consistent equation for the resolvent are one equation written twice.}
+\end{remark}
+
+Return to the four complaints of \S2.4. The density came out directly. Only the second moment of the entries was used, so nothing needed all moments. Unequal variances $\E M_{ij}^2=S_{ij}/N$ turn \eqref{eq:sc} into a system of $N$ coupled equations rather than one, which is a change of size and not of method. A rank-one spike is a rank-one perturbation of the resolvent. And shrinking $\Im z$ toward the real axis, rather than holding it fixed, is precisely what converts a global law into a local one.
+
+\starsec{Counting the walks, and identifying the limit}\label{sec:walks}
+
+\emph{Not lectured.} These exercises supply steps 3, 5 and 6 of \S2.3.
+
+\begin{exercise}[\ty{A}]
+Show $\frac1N\E\Tr M^2=1+\frac1N$ and $\frac1N\E\Tr M^{2k+1}=0$. \emph{One line each; the second needs no computation --- say why.}
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+\emph{(Step 3, first half.)} Expanding $\frac1N\E\Tr M^{2k}$ and applying Theorem~\ref{thm:wick}, use $\E[M_{ab}M_{cd}]\ne0\Rightarrow\{a,b\}=\{c,d\}$ to show a pair partition contributes nothing unless each block pairs two steps traversing the \textbf{same edge}. Deduce that a contributing walk uses at most $k$ distinct edges, each traversed exactly twice in the leading terms. \emph{Steps with $i_r=i_{r+1}$, and edges used four or more times, both lower the vertex count and are lower order.}
+\end{exercise}
+
+\begin{exercise}[\ty{B}]
+\emph{(Step 3, second half.)} Let $G$ be the edge graph of a contributing walk, with $v$ vertices and $e$ edges. The walk is closed, so $G$ is connected and $e\ge v-1$; combine with $e\le k$ to get $v\le k+1$, with equality exactly when $G$ is a tree with $k$ edges each traversed twice. Then count: $\sim N^v$ index tuples, $k$ covariances of size $1/N$, and a $1/N$ in front, so the contribution is $N^{v-k-1}$ and only tree walks survive.
+\end{exercise}
+
+\begin{exercise}[\ty{C}]
+\emph{(Step 5, one route.)} Let $C_n$ be the number of non-crossing pair partitions of $2n$ points and condition on the block $\{1,b\}$ containing the point $1$. Show the points strictly between must pair among themselves, so $b=2j+2$ is even and the rest splits into intervals of $2j$ and $2(n-1-j)$; deduce $C_n=\sum_{j<n}C_jC_{n-1-j}$ with $C_0=1$, and compute $1,1,2,5,14,42$. Then show the generating function satisfies $C=1+wC^2$, solve, and take the root finite at $w=0$. \emph{Expanding it gives $C_n=\frac1{n+1}\binom{2n}{n}$; you may quote that.}
+\end{exercise}
+
+\begin{exercise}[\ty{C}]
+\emph{(Step 5, the other route.)} Count the tree walks directly. Fix a tree with $k$ edges and a start vertex, and record the walk as $2k$ symbols: $+1$ for a step onto a vertex \emph{not visited before}, $-1$ otherwise. Show every partial sum is $\ge0$ and the total is $0$ --- a \textbf{Dyck path} --- and that the walk is recoverable, so the correspondence is a bijection. Conclude that the number of contributing walks on $N$ labelled vertices is exactly $C_k\,N(N-1)\cdots(N-k)$, hence $\frac1N\E\Tr M^{2k}\to C_k$.
+
+\emph{The idea is the encoding: forget where the walk is, record only whether it is going somewhere new or coming back. Check the count numerically for $k\le3$, $N\le6$; it is exact, not asymptotic.}
+\end{exercise}
+
+Both routes land on the same closed form, and so does the density: substituting $x=2\sin\theta$ and evaluating a Beta integral gives $\int_{-2}^2x^{2k}\rho_{sc}=\frac1{k+1}\binom{2k}{k}$. Nothing was matched by eye.
+
+\begin{exercise}[\ty{C}]
+For a \emph{complex Hermitian} Wigner matrix, $\E[H_{ab}H_{cd}]=\frac1N\delta_{ad}\delta_{bc}$ --- one delta term where the real case has two. Redo the crossing pair partition of $\Tr H^4$ and show it now leaves one free index, so the correction is $O(N^{-2})$ rather than $O(N^{-1})$. \emph{One extra way to glue two entries together is the whole difference.}
+\end{exercise}
+
+\begin{exercise}[\ty{A}]
+Plot the empirical spectral distribution at $N=50$ and $N=2000$ against $\rho_{sc}$, then once more with entries $\pm1/\sqrt N$, which are not Gaussian and for which Theorem~\ref{thm:wick} is false. One figure. \emph{Universality, weeks before the course explains it.}
+\end{exercise}
+
+\vspace{1em}
+\hrule height 0.5pt
+\vspace{0.4em}
+{\footnotesize\color{grey} Homework 5 counts the pair partitions, computes $\frac1N\E\Tr M^2$ and the exponent $N^{f(P)-k-1}$, and checks $\int x^{2k}\rho_{sc}=C_k$; Homework 6 proves Stieltjes inversion, supplies the estimates (b) and (c) above, and rederives Marchenko--Pastur by the same route.}
+
+\end{document}
