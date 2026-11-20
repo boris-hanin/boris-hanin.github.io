@@ -42,7 +42,7 @@ Please see my [CV](/CV.pdf) for more information.
 - [Mengxuan Yang](https://sites.google.com/view/mxyang) (Assistant Professor, Texas A&M Math)
 - [Vladimir Narovlansky](https://www.ias.edu/scholars/vladimir-narovlansky) (Assistant Professor, Hebrew University in Jerusalem Physics)
 - [Boris Shigida](https://orfe.princeton.edu/people/boris-shigida) (Postdoc at Meta)
-- 
+  
 ## Professional Service
 I am an Associate Editor of
 
