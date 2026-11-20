@@ -30,7 +30,7 @@ Please see my [CV](/CV.pdf) for more information.
 
 
 ## **Research Group**
-- I am fortunate to supervise several excellent PhD students: [Alex Negron](https://alexnegron.com/), [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman), [Tianze Jiang](https://petyrrrrr.github.io/), [Francesco Caporali](https://caporali.github.io/), [Shaunak Bhandarkar](https://pni.princeton.edu/people/shaunak-bhandarkar) (joint with Jonathan Pillow). 
+- I am fortunate to supervise several excellent PhD students: [Alex Negron](https://alexnegron.com/), [Jake Freeman](https://orfe.princeton.edu/people/jake-freeman), [Tianze Jiang](https://petyrrrrr.github.io/), [Francesco Caporali](https://caporali.github.io/), [Shaunak Bhandarkar](https://pni.princeton.edu/people/shaunak-bhandarkar) (joint with Jonathan Pillow), [Xiaoyang Xie](https://www.pacm.princeton.edu/people/xiaoyang-xie) (joint with Clarence Rowley). 
 
 - I am excited to be working with several phenomenal postdocs: [Gage DeZoort](https://gagedezoort.github.io), [Paolo Baglioni](https://www.linkedin.com/in/paolo-baglioni?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
   
